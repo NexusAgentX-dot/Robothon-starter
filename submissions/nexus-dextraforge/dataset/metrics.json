@@ -18,6 +18,8 @@
   "robot_execution_packets": 698,
   "real_world_condition_success_rate": 1.0,
   "real_world_condition_scenarios": 144,
+  "hardware_adaptation_path_score": 1.0,
+  "hardware_adaptation_path_stages": 9,
   "arena_task_count": 15,
   "arena_success_rate": 1.0,
   "arena_max_pose_error_mm": 9.2,

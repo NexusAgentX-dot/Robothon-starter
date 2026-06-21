@@ -72,6 +72,40 @@ class HardwareReadyUpgradeTest(unittest.TestCase):
         self.assertIn("serial_json", report["transport_profiles"])
         self.assertIn("dataset/robot_execution_packets.jsonl", report["artifacts"])
 
+    def test_refined_hardware_adaptation_path_is_executable(self) -> None:
+        build_artifacts()
+
+        report = json.loads((ROOT / "dataset" / "hardware_adaptation_path.json").read_text())
+        protocol = ROOT / "dataset" / "low_torque_trial_protocol.md"
+        checklist = ROOT / "dataset" / "robot_trial_acceptance_checklist.csv"
+        ros2_sample = ROOT / "dataset" / "ros2_joint_trajectory_sample.json"
+        serial_sample = ROOT / "dataset" / "serial_json_packet_sample.json"
+
+        self.assertTrue(protocol.exists())
+        self.assertTrue(checklist.exists())
+        self.assertTrue(ros2_sample.exists())
+        self.assertTrue(serial_sample.exists())
+        self.assertEqual(report["path_type"], "refined_hardware_adaptation_path")
+        self.assertFalse(report["physical_robot_claimed"])
+        self.assertTrue(report["ready_for_supervised_low_torque_trial"])
+        self.assertGreaterEqual(report["stage_count"], 8)
+        self.assertGreaterEqual(report["trial_path_score"], 0.95)
+        self.assertEqual(report["acceptance_summary"]["safety_stop_packets"], 0)
+        self.assertLessEqual(report["acceptance_summary"]["max_encoder_tracking_error_rad"], 0.026)
+        self.assertLessEqual(report["acceptance_summary"]["p95_loop_jitter_ms"], 3.5)
+        self.assertIn("ros2_joint_trajectory", report["transport_profiles"])
+        self.assertIn("serial_json", report["transport_profiles"])
+        for stage in (
+            "joint_zero_calibration",
+            "low_torque_single_finger_sweep",
+            "five_finger_mirror_replay",
+            "vial_contact_trial",
+            "cap_twist_trial",
+            "slip_recovery_trial",
+        ):
+            self.assertIn(stage, report["stage_ids"])
+        self.assertIn("refine hardware adaptation path", report["judge_feedback_targets"])
+
 
 if __name__ == "__main__":
     unittest.main()

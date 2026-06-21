@@ -1,0 +1,42 @@
+{
+  "message_type": "trajectory_msgs/JointTrajectory",
+  "low_torque_mode": true,
+  "watchdog_timeout_ms": 80,
+  "sample": {
+    "joint_names": [
+      "thumb_prox_rad",
+      "thumb_mid_rad",
+      "thumb_dist_rad",
+      "index_prox_rad",
+      "index_mid_rad",
+      "index_dist_rad",
+      "middle_prox_rad",
+      "middle_mid_rad",
+      "middle_dist_rad",
+      "ring_prox_rad",
+      "ring_mid_rad",
+      "ring_dist_rad",
+      "little_prox_rad",
+      "little_mid_rad",
+      "little_dist_rad"
+    ],
+    "positions_rad": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "time_from_start_s": 0.0
+  }
+}

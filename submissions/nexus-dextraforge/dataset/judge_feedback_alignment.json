@@ -6,6 +6,7 @@
   "video_information_density": "clean_two_line_overlay",
   "subtitle_information_density": "clean_short_caption",
   "hardware_execution_signal": "ready_50hz_low_torque_robot_bridge",
+  "hardware_adaptation_path_signal": "refined_supervised_low_torque_trial_path",
   "real_world_testing_signal": "144_condition_proxy_eval_all_pass",
   "video_pacing": "held_clean_beats",
   "current_feedback_basis": {
@@ -25,6 +26,9 @@
         "LEAP and Shadow robot execution bridge packets",
         "dataset/robot_execution_bridge_report.json",
         "dataset/robot_execution_packets.jsonl",
+        "refined_hardware_adaptation_path",
+        "dataset/hardware_adaptation_path.json",
+        "dataset/low_torque_trial_protocol.md",
         "50 Hz replay bench with loop jitter and encoder tracking",
         "dataset/hardware_replay_trial_report.json"
       ],
@@ -42,6 +46,11 @@
         "large_on_video_captions_without_detail_lines",
         "visual_spotlight_cues",
         "real_world_condition_proxy_eval",
+        "refined_hardware_adaptation_path",
+        "dataset/hardware_adaptation_path.json",
+        "dataset/robot_trial_acceptance_checklist.csv",
+        "dataset/ros2_joint_trajectory_sample.json",
+        "dataset/serial_json_packet_sample.json",
         "dataset/real_world_condition_eval.json",
         "dataset/narration.srt",
         "media/demo.mp4"
@@ -62,6 +71,8 @@
         "held_clean_beats",
         "hardware_replay_trial",
         "robot_execution_bridge",
+        "refined_hardware_adaptation_path",
+        "supervised_low_torque_trial_protocol",
         "real_world_condition_proxy_eval",
         "LEAP and Shadow-style hardware profiles",
         "motor-current and encoder-tracking safety margins"

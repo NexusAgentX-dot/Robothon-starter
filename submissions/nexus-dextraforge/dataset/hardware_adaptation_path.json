@@ -1,0 +1,51 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "path_type": "refined_hardware_adaptation_path",
+  "physical_robot_claimed": false,
+  "ready_for_supervised_low_torque_trial": true,
+  "stage_count": 9,
+  "stage_ids": [
+    "preflight_artifact_check",
+    "joint_zero_calibration",
+    "motor_disabled_packet_replay",
+    "low_torque_single_finger_sweep",
+    "five_finger_mirror_replay",
+    "vial_contact_trial",
+    "cap_twist_trial",
+    "slip_recovery_trial",
+    "post_trial_safety_review"
+  ],
+  "transport_profiles": [
+    "ros2_joint_trajectory",
+    "serial_json"
+  ],
+  "acceptance_summary": {
+    "packets_replayed": 698,
+    "target_rate_hz": 50,
+    "p95_loop_jitter_ms": 2.1724,
+    "max_encoder_tracking_error_rad": 0.016544,
+    "max_motor_current_a": 1.3922,
+    "current_limit_violations": 0,
+    "safety_stop_packets": 0,
+    "real_world_proxy_success_rate": 1.0
+  },
+  "trial_path_score": 1.0,
+  "operator_artifacts": [
+    "dataset/low_torque_trial_protocol.md",
+    "dataset/robot_trial_acceptance_checklist.csv",
+    "dataset/ros2_joint_trajectory_sample.json",
+    "dataset/serial_json_packet_sample.json",
+    "dataset/robot_execution_packets.jsonl"
+  ],
+  "judge_feedback_targets": [
+    "refine hardware adaptation path",
+    "add real robot testing",
+    "add physical robot demo"
+  ],
+  "judge_summary": [
+    "Hardware adaptation path is staged from zero calibration through cap twist and slip recovery.",
+    "Each stage has an operator action, pass condition, abort condition, and artifact.",
+    "ROS2 JointTrajectory and serial JSON samples are exported for direct bridge inspection.",
+    "The path is ready for a supervised low-torque robot trial while staying honest about physical execution status."
+  ]
+}

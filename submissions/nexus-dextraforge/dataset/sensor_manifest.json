@@ -66,6 +66,7 @@
   "minimum_jerk_controller": "dataset/minimum_jerk_report.json",
   "hardware_replay_trial": "dataset/hardware_replay_trial_report.json",
   "robot_execution_bridge": "dataset/robot_execution_bridge_report.json",
+  "hardware_adaptation_path": "dataset/hardware_adaptation_path.json",
   "real_world_condition_eval": "dataset/real_world_condition_eval.json",
   "highlight_moments": "dataset/highlight_moments.json"
 }

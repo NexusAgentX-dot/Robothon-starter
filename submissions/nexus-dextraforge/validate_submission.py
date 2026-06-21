@@ -42,6 +42,11 @@ def main() -> None:
     require("dataset/hardware_replay_trial.csv")
     robot_bridge = json.loads(require("dataset/robot_execution_bridge_report.json").read_text())
     require("dataset/robot_execution_packets.jsonl")
+    hardware_path = json.loads(require("dataset/hardware_adaptation_path.json").read_text())
+    require("dataset/low_torque_trial_protocol.md")
+    require("dataset/robot_trial_acceptance_checklist.csv")
+    require("dataset/ros2_joint_trajectory_sample.json")
+    require("dataset/serial_json_packet_sample.json")
     real_world = json.loads(require("dataset/real_world_condition_eval.json").read_text())
     require("dataset/real_world_condition_eval.csv")
     alignment = json.loads(require("dataset/judge_feedback_alignment.json").read_text())
@@ -76,6 +81,12 @@ def main() -> None:
         "robot_execution_bridge": robot_bridge.get("ready_for_low_torque_robot_test") is True
         and robot_bridge.get("packets_prepared", 0) >= 690
         and robot_bridge.get("safety_stop_packets", 99) == 0,
+        "hardware_adaptation_path": hardware_path.get("ready_for_supervised_low_torque_trial") is True
+        and hardware_path.get("stage_count", 0) >= 8
+        and hardware_path.get("trial_path_score", 0) >= 0.95
+        and hardware_path.get("acceptance_summary", {}).get("safety_stop_packets", 99) == 0
+        and hardware_path.get("acceptance_summary", {}).get("max_encoder_tracking_error_rad", 99) <= 0.026
+        and "refine hardware adaptation path" in hardware_path.get("judge_feedback_targets", []),
         "real_world_condition_eval": real_world.get("scenario_count", 0) >= 72
         and real_world.get("success_rate", 0) >= 0.99
         and real_world.get("safety_stop_count", 99) == 0,

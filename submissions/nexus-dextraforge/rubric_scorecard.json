@@ -5,7 +5,7 @@
   "scorecard": {
     "runnability": {
       "target_score": 9.6,
-      "evidence": "One command regenerates demo.mp4, telemetry.csv, summary.json, validation_report.json, task_suite_report.json, minimum_jerk_report.json, hardware_replay_trial_report.json, media/keyframes.png, and judge artifacts."
+      "evidence": "One command regenerates demo.mp4, telemetry.csv, summary.json, validation_report.json, task_suite_report.json, minimum_jerk_report.json, hardware_replay_trial_report.json, hardware_adaptation_path.json, media/keyframes.png, and judge artifacts."
     },
     "mujoco_depth": {
       "target_score": 9.2,
@@ -17,7 +17,7 @@
     },
     "control": {
       "target_score": 9.8,
-      "evidence": "Minimum-jerk tactile impedance trajectory plus phased tactile gait, five fingertip taxel streams, fixed-seed residual pressure policy card, stress evaluation, pressure/shear slip control schedule, 50 Hz hardware command stream, and hardware replay bench trial."
+      "evidence": "Minimum-jerk tactile impedance trajectory plus phased tactile gait, five fingertip taxel streams, fixed-seed residual pressure policy card, stress evaluation, pressure/shear slip control schedule, 50 Hz hardware command stream, hardware replay bench trial, and supervised low-torque hardware adaptation path."
     },
     "dexterous_manipulation": {
       "target_score": 9.6,
@@ -25,7 +25,7 @@
     },
     "engineering_quality": {
       "target_score": 9.8,
-      "evidence": "Structured evidence pack, validator, telemetry, training report, stress report, 15-task report, minimum-jerk trajectory trace, sim-to-hardware audit, hardware replay trial, judge feedback alignment, UUID consistency, and no external assets."
+      "evidence": "Structured evidence pack, validator, telemetry, training report, stress report, 15-task report, minimum-jerk trajectory trace, sim-to-hardware audit, hardware replay trial, robot execution bridge, refined hardware adaptation path, judge feedback alignment, UUID consistency, and no external assets."
     },
     "presentation": {
       "target_score": 9.8,
@@ -33,7 +33,7 @@
     },
     "innovation": {
       "target_score": 9.7,
-      "evidence": "Combines a 15-task dexterous medication arena, minimum-jerk tactile impedance control, tactile data collection, stress evaluation, executable hardware command packets, hardware replay bench validation, and hardware retargeting in a compact MuJoCo benchmark."
+      "evidence": "Combines a 15-task dexterous medication arena, minimum-jerk tactile impedance control, tactile data collection, stress evaluation, executable hardware command packets, hardware replay bench validation, supervised low-torque trial protocol, ROS2/serial packet samples, and hardware retargeting in a compact MuJoCo benchmark."
     }
   }
 }

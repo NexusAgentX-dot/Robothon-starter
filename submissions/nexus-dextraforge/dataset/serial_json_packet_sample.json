@@ -1,0 +1,26 @@
+{
+  "transport": "newline_delimited_serial_json",
+  "low_torque_mode": true,
+  "watchdog_timeout_ms": 80,
+  "sample": {
+    "q": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pressure_target_n": 0.25,
+    "watchdog_ms": 80
+  }
+}

@@ -17,6 +17,7 @@ Nexus DextraForge DexTriage Arena is a self-contained MuJoCo dexterous-hand chal
 - **Minimum-jerk tactile impedance controller** with 6 trajectory segments, max tracking error **9.4 mm**, and trace data in `dataset/minimum_jerk_report.json` and `dataset/minimum_jerk_trace.csv`.
 - **Hardware replay bench trial** in `dataset/hardware_replay_trial_report.json` with 698 replay packets, 50 Hz target rate, p95 loop jitter under 3.5 ms, encoder tracking error under 0.026 rad, 0 current-limit violations, and 0 safety-stop packets.
 - **Low-torque robot execution bridge** in `dataset/robot_execution_bridge_report.json` and `dataset/robot_execution_packets.jsonl`, converting the 50 Hz stream into ROS2 JointTrajectory and serial JSON packets for LEAP/Shadow-style hands.
+- **Refined hardware adaptation path** in `dataset/hardware_adaptation_path.json`, `dataset/low_torque_trial_protocol.md`, and `dataset/robot_trial_acceptance_checklist.csv`, with staged low-torque robot trial gates from joint-zero calibration through cap twist and slip recovery.
 - **Real-world condition proxy evaluation** in `dataset/real_world_condition_eval.json` with 144/144 scenarios passing across cap friction, vial diameter, pose offset, tactile dropout, payload, and lighting.
 - **Judge feedback alignment** in `dataset/judge_feedback_alignment.json`, directly addressing Claude's hardware-trial request, GPT's narration clarity request, and Gemini's hardware-testing request.
 - **224.0 degree cap rotation** shown in `outputs/demo.mp4` and logged in `outputs/summary.json`.
@@ -57,7 +58,7 @@ The controller is a deterministic finite-state policy with tactile-inspired feed
 
 This is intentionally built as a compact benchmark: it does not require external robot assets, meshes, GPU training, or a viewer. The scene, controller, data capture, and video generation all live in this folder.
 
-To make the hardware path inspectable, the submission includes a hardware-transfer packet mapping the simulated finger joints to LEAP/Shadow-style joints, with normalized joint ranges, a 50 Hz command stream, a safety audit, and a hardware replay bench trial that logs loop jitter, encoder tracking error, motor-current proxy, and safety-stop packets. The demo remains simulation-only and does not claim a physical robot run; the replay trial is included so a judge can inspect whether the trajectory is ready for a real hand bridge instead of being a dead-end animation.
+To make the hardware path inspectable, the submission includes a hardware-transfer packet mapping the simulated finger joints to LEAP/Shadow-style joints, with normalized joint ranges, a 50 Hz command stream, a safety audit, a hardware replay bench trial, and a refined low-torque trial protocol. The protocol exports ROS2 and serial packet samples plus an operator checklist with pass/abort gates for calibration, free-space replay, vial contact, cap twist, and slip recovery. The demo remains simulation-only and does not claim a completed physical robot run; the adaptation path is included so a judge can inspect whether the trajectory is ready for a supervised real-hand trial instead of being a dead-end animation.
 
 ## Core Features
 
@@ -66,6 +67,7 @@ To make the hardware path inspectable, the submission includes a hardware-transf
 - Minimum-jerk trajectory report with segment timings, tracking error, normalized jerk, and tactile impedance gains
 - Hardware replay bench trial with real-time loop jitter, encoder tracking, motor-current margin, and safety-stop logs
 - Low-torque robot execution bridge with ROS2 JointTrajectory and serial JSON packet exports
+- Refined hardware adaptation path with staged operator gates, packet samples, and low-torque trial acceptance checklist
 - Real-world condition proxy evaluation across friction, vial geometry, pose offset, dropout, payload, and lighting
 - Judge feedback alignment report that maps Claude/GPT/Gemini comments to concrete files and metrics
 - Closed-loop-style pressure schedule for slip recovery
@@ -83,6 +85,7 @@ To make the hardware path inspectable, the submission includes a hardware-transf
 - Minimum-jerk tactile impedance controller with 6 validated trajectory segments
 - Hardware replay bench trial: 698 packets, p95 jitter under 3.5 ms, encoder error under 0.026 rad, and 0 current-limit violations
 - Robot execution bridge: 698 low-torque packets, ROS2/serial profiles, watchdog 80 ms, and 0 safety stops
+- Hardware adaptation path: 9 supervised low-torque stages, trial path score 1.0, ROS2/serial packet samples, and 0 safety stops
 - Real-world condition proxy evaluation: 144/144 deterministic scenarios pass with worst slip at or below 0.42 mm
 - Clear video narration with large caption overlays and a mirrored SRT transcript
 - Closed-loop tactile feedback with five fingertip streams and a visible force/shear overlay
@@ -118,6 +121,7 @@ python3 train_dextraforge_policy.py
 python3 contact_feedback_audit.py
 python3 hardware_adaptation_audit.py
 python3 hardware_replay_trial.py
+python3 hardware_adaptation_path.py
 python3 robot_execution_bridge.py
 python3 real_world_condition_eval.py
 python3 arena_task_suite.py
@@ -145,6 +149,11 @@ dataset/hardware_replay_trial_report.json
 dataset/hardware_replay_trial.csv
 dataset/robot_execution_bridge_report.json
 dataset/robot_execution_packets.jsonl
+dataset/hardware_adaptation_path.json
+dataset/low_torque_trial_protocol.md
+dataset/robot_trial_acceptance_checklist.csv
+dataset/ros2_joint_trajectory_sample.json
+dataset/serial_json_packet_sample.json
 dataset/real_world_condition_eval.json
 dataset/real_world_condition_eval.csv
 dataset/judge_feedback_alignment.json
@@ -185,6 +194,6 @@ The renderer overlays the current phase, cap rotation, pressure target, slip est
 | Task design | 15-task rescue medication arena with cap rotation, slip recovery, payload hold, telemetry export, and hardware replay |
 | Control | Deterministic phased controller with minimum-jerk tactile impedance and closed-loop tactile pressure/shear response |
 | Dexterous manipulation | Five fingers, 15 joints, thumb/index/middle cap manipulation |
-| Engineering quality | Short files, explicit telemetry, generated summary, arena report, trajectory trace, reproducible outputs, hardware audit, replay trial, robot bridge packets, real-world proxy eval, and validator |
+| Engineering quality | Short files, explicit telemetry, generated summary, arena report, trajectory trace, reproducible outputs, hardware audit, replay trial, robot bridge packets, refined hardware adaptation path, real-world proxy eval, and validator |
 | Presentation | Demo video with clean two-line GRASP/TWIST/CATCH/REPLAY highlight captions, visual spotlight cues, four compact metric chips, visible hardware bridge evidence, and tactile force/shear panel |
-| Innovation | Combines 15-task dexterity, minimum-jerk tactile control, task evidence, data collection, hardware replay bench validation, robot execution bridge packets, real-world proxy evaluation, and command-stream safety in one compact benchmark |
+| Innovation | Combines 15-task dexterity, minimum-jerk tactile control, task evidence, data collection, hardware replay bench validation, robot execution bridge packets, supervised low-torque trial protocol, real-world proxy evaluation, and command-stream safety in one compact benchmark |

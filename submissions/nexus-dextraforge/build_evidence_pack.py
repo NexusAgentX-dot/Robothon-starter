@@ -14,6 +14,7 @@ from PIL import Image, ImageDraw, ImageFont
 from arena_task_suite import build_task_suite
 from contact_feedback_audit import build_contact_report
 from hardware_adaptation_audit import build_audit
+from hardware_adaptation_path import build_path
 from hardware_replay_trial import build_trial
 from minimum_jerk_controller import build_minimum_jerk_report
 from real_world_condition_eval import build_eval
@@ -119,6 +120,7 @@ def main() -> None:
     hardware_trial = build_trial()
     robot_bridge = build_bridge()
     real_world_eval = build_eval()
+    hardware_path = build_path()
     task_suite = build_task_suite()
     minimum_jerk = build_minimum_jerk_report()
     shutil.copy2(OUT / "demo.mp4", MEDIA / "demo.mp4")
@@ -144,6 +146,8 @@ def main() -> None:
         "robot_execution_packets": robot_bridge["packets_prepared"],
         "real_world_condition_success_rate": real_world_eval["success_rate"],
         "real_world_condition_scenarios": real_world_eval["scenario_count"],
+        "hardware_adaptation_path_score": hardware_path["trial_path_score"],
+        "hardware_adaptation_path_stages": hardware_path["stage_count"],
         "arena_task_count": task_suite["task_count"],
         "arena_success_rate": task_suite["success_rate"],
         "arena_max_pose_error_mm": task_suite["max_pose_error_mm"],
@@ -226,6 +230,7 @@ def main() -> None:
                 "minimum_jerk_controller": "dataset/minimum_jerk_report.json",
                 "hardware_replay_trial": "dataset/hardware_replay_trial_report.json",
                 "robot_execution_bridge": "dataset/robot_execution_bridge_report.json",
+                "hardware_adaptation_path": "dataset/hardware_adaptation_path.json",
                 "real_world_condition_eval": "dataset/real_world_condition_eval.json",
                 "highlight_moments": "dataset/highlight_moments.json",
             },
@@ -265,6 +270,10 @@ def main() -> None:
                     "hardware replay trial",
                     "real-time hardware bridge dry run",
                     "robot execution bridge",
+                    "refined hardware adaptation path",
+                    "supervised low torque trial protocol",
+                    "ROS2 JointTrajectory sample",
+                    "serial JSON packet sample",
                     "low torque robot test packets",
                     "real-world condition proxy eval",
                     "144 real-world stress scenarios",
@@ -294,6 +303,9 @@ def main() -> None:
                 "minimum_jerk": "dataset/minimum_jerk_report.json",
                 "hardware_replay_trial": "dataset/hardware_replay_trial_report.json",
                 "robot_execution_bridge": "dataset/robot_execution_bridge_report.json",
+                "hardware_adaptation_path": "dataset/hardware_adaptation_path.json",
+                "low_torque_trial_protocol": "dataset/low_torque_trial_protocol.md",
+                "robot_trial_acceptance_checklist": "dataset/robot_trial_acceptance_checklist.csv",
                 "real_world_condition_eval": "dataset/real_world_condition_eval.json",
                 "validator": "validate_submission.py",
             },
@@ -311,6 +323,7 @@ def main() -> None:
                 "video_information_density": "clean_two_line_overlay",
                 "subtitle_information_density": "clean_short_caption",
                 "hardware_execution_signal": "ready_50hz_low_torque_robot_bridge",
+                "hardware_adaptation_path_signal": "refined_supervised_low_torque_trial_path",
                 "real_world_testing_signal": "144_condition_proxy_eval_all_pass",
                 "video_pacing": "held_clean_beats",
                 "current_feedback_basis": {
@@ -330,6 +343,9 @@ def main() -> None:
                             "LEAP and Shadow robot execution bridge packets",
                             "dataset/robot_execution_bridge_report.json",
                             "dataset/robot_execution_packets.jsonl",
+                            "refined_hardware_adaptation_path",
+                            "dataset/hardware_adaptation_path.json",
+                            "dataset/low_torque_trial_protocol.md",
                             "50 Hz replay bench with loop jitter and encoder tracking",
                             "dataset/hardware_replay_trial_report.json",
                         ],
@@ -347,6 +363,11 @@ def main() -> None:
                             "large_on_video_captions_without_detail_lines",
                             "visual_spotlight_cues",
                             "real_world_condition_proxy_eval",
+                            "refined_hardware_adaptation_path",
+                            "dataset/hardware_adaptation_path.json",
+                            "dataset/robot_trial_acceptance_checklist.csv",
+                            "dataset/ros2_joint_trajectory_sample.json",
+                            "dataset/serial_json_packet_sample.json",
                             "dataset/real_world_condition_eval.json",
                             "dataset/narration.srt",
                             "media/demo.mp4",
@@ -367,6 +388,8 @@ def main() -> None:
                             "held_clean_beats",
                             "hardware_replay_trial",
                             "robot_execution_bridge",
+                            "refined_hardware_adaptation_path",
+                            "supervised_low_torque_trial_protocol",
                             "real_world_condition_proxy_eval",
                             "LEAP and Shadow-style hardware profiles",
                             "motor-current and encoder-tracking safety margins",
