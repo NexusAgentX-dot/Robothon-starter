@@ -1,6 +1,6 @@
 # Nexus DextraForge DexTriage Arena
 
-Nexus DextraForge DexTriage Arena is a self-contained MuJoCo dexterous-hand challenge for closed-loop rescue medication triage. A five-finger hand completes a 15-task rescue-kit suite, grips a vial, rotates its safety cap with a minimum-jerk tactile impedance controller, catches a slip impulse at 0.34 mm using tactile feedback targets, holds a 9x payload marker, and logs joint states, cap angle, fingertip taxels, contact pressure, shear slip, task-success events, visual highlight moments, clean two-line captions, hardware replay bench packets, low-torque robot execution packets, and real-world condition proxy evaluation.
+Nexus DextraForge DexTriage Arena is a self-contained MuJoCo dexterous-hand challenge for closed-loop rescue medication triage. A five-finger hand completes a 15-task rescue-kit suite, grips a vial, rotates its safety cap with a minimum-jerk tactile impedance controller, catches a slip impulse at 0.34 mm using tactile feedback targets, holds a 9x payload marker over a tray-ready placement cue, and logs joint states, cap angle, fingertip taxels, contact pressure, shear slip, task-success events, visual highlight moments, clean two-line captions, closed-loop integration evidence, hardware replay bench packets, low-torque robot execution packets, and real-world condition proxy evaluation.
 
 ## Primary Demo Media
 
@@ -14,6 +14,7 @@ Nexus DextraForge DexTriage Arena is a self-contained MuJoCo dexterous-hand chal
 - **Demo video is included** at `media/demo.mp4` and regenerated from `run_demo.py`.
 - **Clean hardware highlight reel is embedded in the video:** GRASP / TWIST / CATCH / REPLAY, with four compact metric chips and visible 50 Hz hardware bridge evidence mirrored in `dataset/narration.srt` and `dataset/highlight_moments.json`.
 - **15-task DexTriage Arena** with **15/15 task success**, max pose error **9.2 mm**, and machine-readable reports in `dataset/task_suite_report.json` and `dataset/task_suite.csv`.
+- **Five-finger closed-loop integration report** in `dataset/closed_loop_integration_report.json`, tying GRASP/TWIST/CATCH/PLACE_READY story beats to telemetry for five-finger grasp, cap twist, slip recovery, and tray-ready placement.
 - **Minimum-jerk tactile impedance controller** with 6 trajectory segments, max tracking error **9.4 mm**, and trace data in `dataset/minimum_jerk_report.json` and `dataset/minimum_jerk_trace.csv`.
 - **Hardware replay bench trial** in `dataset/hardware_replay_trial_report.json` with 698 replay packets, 50 Hz target rate, p95 loop jitter under 3.5 ms, encoder tracking error under 0.026 rad, 0 current-limit violations, and 0 safety-stop packets.
 - **Low-torque robot execution bridge** in `dataset/robot_execution_bridge_report.json` and `dataset/robot_execution_packets.jsonl`, converting the 50 Hz stream into ROS2 JointTrajectory and serial JSON packets for LEAP/Shadow-style hands.
@@ -64,6 +65,7 @@ To make the hardware path inspectable, the submission includes a hardware-transf
 
 - Full MJCF scene with articulated multi-finger hand, joints, sensors, actuators, collision geoms, and task objects
 - 15-task arena report with per-task success, pose error, tactile evidence, and hardware-transfer evidence
+- Closed-loop integration report that links five-finger grasp, cap twist, slip recovery, and tray-ready placement cue to telemetry
 - Minimum-jerk trajectory report with segment timings, tracking error, normalized jerk, and tactile impedance gains
 - Hardware replay bench trial with real-time loop jitter, encoder tracking, motor-current margin, and safety-stop logs
 - Low-torque robot execution bridge with ROS2 JointTrajectory and serial JSON packet exports
@@ -82,6 +84,7 @@ To make the hardware path inspectable, the submission includes a hardware-transf
 
 - 15-DOF five-finger coordination with visible thumb/index/middle cap manipulation
 - 15/15 arena task success with max pose error below 10 mm
+- Five-finger closed-loop integration score: 1.0 across grasp, cap twist, slip recovery, and place-ready stabilization
 - Minimum-jerk tactile impedance controller with 6 validated trajectory segments
 - Hardware replay bench trial: 698 packets, p95 jitter under 3.5 ms, encoder error under 0.026 rad, and 0 current-limit violations
 - Robot execution bridge: 698 low-torque packets, ROS2/serial profiles, watchdog 80 ms, and 0 safety stops
@@ -126,6 +129,7 @@ python3 robot_execution_bridge.py
 python3 real_world_condition_eval.py
 python3 arena_task_suite.py
 python3 minimum_jerk_controller.py
+python3 closed_loop_integration_report.py
 python3 build_evidence_pack.py
 python3 validate_submission.py
 ```
@@ -145,6 +149,8 @@ dataset/task_suite_report.json
 dataset/task_suite.csv
 dataset/minimum_jerk_report.json
 dataset/minimum_jerk_trace.csv
+dataset/closed_loop_integration_report.json
+dataset/closed_loop_story_beats.csv
 dataset/hardware_replay_trial_report.json
 dataset/hardware_replay_trial.csv
 dataset/robot_execution_bridge_report.json
@@ -192,8 +198,8 @@ The renderer overlays the current phase, cap rotation, pressure target, slip est
 | Runnability | Single folder, single command, no external assets |
 | MuJoCo depth | MJCF scene, collisions, joints, sensors, actuators, offscreen rendering |
 | Task design | 15-task rescue medication arena with cap rotation, slip recovery, payload hold, telemetry export, and hardware replay |
-| Control | Deterministic phased controller with minimum-jerk tactile impedance and closed-loop tactile pressure/shear response |
+| Control | Deterministic phased controller with minimum-jerk tactile impedance, closed-loop tactile pressure/shear response, and machine-readable closed-loop integration report |
 | Dexterous manipulation | Five fingers, 15 joints, thumb/index/middle cap manipulation |
 | Engineering quality | Short files, explicit telemetry, generated summary, arena report, trajectory trace, reproducible outputs, hardware audit, replay trial, robot bridge packets, refined hardware adaptation path, real-world proxy eval, and validator |
-| Presentation | Demo video with clean two-line GRASP/TWIST/CATCH/REPLAY highlight captions, visual spotlight cues, four compact metric chips, visible hardware bridge evidence, and tactile force/shear panel |
+| Presentation | Demo video with clean two-line GRASP/TWIST/CATCH/REPLAY highlight captions, visual spotlight cues, four compact metric chips, closed-loop story beats, visible hardware bridge evidence, and tactile force/shear panel |
 | Innovation | Combines 15-task dexterity, minimum-jerk tactile control, task evidence, data collection, hardware replay bench validation, robot execution bridge packets, supervised low-torque trial protocol, real-world proxy evaluation, and command-stream safety in one compact benchmark |

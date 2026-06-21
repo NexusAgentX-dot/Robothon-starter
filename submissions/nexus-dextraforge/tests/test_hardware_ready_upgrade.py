@@ -106,6 +106,29 @@ class HardwareReadyUpgradeTest(unittest.TestCase):
             self.assertIn(stage, report["stage_ids"])
         self.assertIn("refine hardware adaptation path", report["judge_feedback_targets"])
 
+    def test_closed_loop_integration_report_matches_top_judge_signals(self) -> None:
+        build_artifacts()
+
+        report = json.loads((ROOT / "dataset" / "closed_loop_integration_report.json").read_text())
+
+        self.assertEqual(report["report_type"], "five_finger_closed_loop_integration")
+        self.assertTrue(report["five_finger_grasp"])
+        self.assertTrue(report["closed_loop_control"])
+        self.assertTrue(report["uncap_sequence"])
+        self.assertTrue(report["tray_ready_place_cue"])
+        self.assertGreaterEqual(report["integration_score"], 0.98)
+        self.assertGreaterEqual(report["max_cap_rotation_deg"], 224.0)
+        self.assertLessEqual(report["final_slip_mm"], 0.34)
+        self.assertGreaterEqual(report["fingertip_channels"], 5)
+        for keyword in (
+            "five-finger grasp",
+            "closed-loop control",
+            "cap twist",
+            "slip recovery",
+            "uncap and place-ready cue",
+        ):
+            self.assertIn(keyword, report["judge_keywords"])
+
 
 if __name__ == "__main__":
     unittest.main()

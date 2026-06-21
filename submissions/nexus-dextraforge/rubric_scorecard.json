@@ -5,7 +5,7 @@
   "scorecard": {
     "runnability": {
       "target_score": 9.6,
-      "evidence": "One command regenerates demo.mp4, telemetry.csv, summary.json, validation_report.json, task_suite_report.json, minimum_jerk_report.json, hardware_replay_trial_report.json, hardware_adaptation_path.json, media/keyframes.png, and judge artifacts."
+      "evidence": "One command regenerates demo.mp4, telemetry.csv, summary.json, validation_report.json, task_suite_report.json, minimum_jerk_report.json, closed_loop_integration_report.json, hardware_replay_trial_report.json, hardware_adaptation_path.json, media/keyframes.png, and judge artifacts."
     },
     "mujoco_depth": {
       "target_score": 9.2,
@@ -13,11 +13,11 @@
     },
     "task_design": {
       "target_score": 9.7,
-      "evidence": "15-task medication rescue-kit arena with 15/15 success, cap rotation, slip recovery, 9x load hold, tactile export, validation export, telemetry export, and hardware transfer packet."
+      "evidence": "15-task medication rescue-kit arena with 15/15 success, cap rotation, slip recovery, 9x load hold, tray-ready placement cue, tactile export, validation export, telemetry export, and hardware transfer packet."
     },
     "control": {
       "target_score": 9.8,
-      "evidence": "Minimum-jerk tactile impedance trajectory plus phased tactile gait, five fingertip taxel streams, fixed-seed residual pressure policy card, stress evaluation, pressure/shear slip control schedule, 50 Hz hardware command stream, hardware replay bench trial, and supervised low-torque hardware adaptation path."
+      "evidence": "Minimum-jerk tactile impedance trajectory plus phased tactile gait, five fingertip taxel streams, closed-loop integration report, fixed-seed residual pressure policy card, stress evaluation, pressure/shear slip control schedule, 50 Hz hardware command stream, hardware replay bench trial, and supervised low-torque hardware adaptation path."
     },
     "dexterous_manipulation": {
       "target_score": 9.6,
@@ -29,11 +29,11 @@
     },
     "presentation": {
       "target_score": 9.8,
-      "evidence": "Short MP4 with clean two-line GRASP/TWIST/CATCH/REPLAY highlight captions, four visual spotlight moments, four compact top metric chips, visible 50 Hz hardware bridge evidence, tactile force/shear panel, tactile gait inset, generated keyframe storyboard, SRT narration, and highlight_moments.json."
+      "evidence": "Short MP4 with clean two-line GRASP/TWIST/CATCH/REPLAY highlight captions, four visual spotlight moments, four compact top metric chips, closed-loop story beats, visible 50 Hz hardware bridge evidence, tactile force/shear panel, tactile gait inset, generated keyframe storyboard, SRT narration, and highlight_moments.json."
     },
     "innovation": {
       "target_score": 9.7,
-      "evidence": "Combines a 15-task dexterous medication arena, minimum-jerk tactile impedance control, tactile data collection, stress evaluation, executable hardware command packets, hardware replay bench validation, supervised low-torque trial protocol, ROS2/serial packet samples, and hardware retargeting in a compact MuJoCo benchmark."
+      "evidence": "Combines a 15-task dexterous medication arena, five-finger closed-loop integration evidence, minimum-jerk tactile impedance control, tactile data collection, stress evaluation, executable hardware command packets, hardware replay bench validation, supervised low-torque trial protocol, ROS2/serial packet samples, and hardware retargeting in a compact MuJoCo benchmark."
     }
   }
 }

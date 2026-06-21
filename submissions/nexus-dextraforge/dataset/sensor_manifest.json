@@ -64,6 +64,7 @@
   ],
   "arena_suite": "dataset/task_suite_report.json",
   "minimum_jerk_controller": "dataset/minimum_jerk_report.json",
+  "closed_loop_integration": "dataset/closed_loop_integration_report.json",
   "hardware_replay_trial": "dataset/hardware_replay_trial_report.json",
   "robot_execution_bridge": "dataset/robot_execution_bridge_report.json",
   "hardware_adaptation_path": "dataset/hardware_adaptation_path.json",

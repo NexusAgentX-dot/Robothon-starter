@@ -12,6 +12,7 @@ import imageio.v2 as imageio
 from PIL import Image, ImageDraw, ImageFont
 
 from arena_task_suite import build_task_suite
+from closed_loop_integration_report import build_closed_loop_report
 from contact_feedback_audit import build_contact_report
 from hardware_adaptation_audit import build_audit
 from hardware_adaptation_path import build_path
@@ -121,6 +122,7 @@ def main() -> None:
     robot_bridge = build_bridge()
     real_world_eval = build_eval()
     hardware_path = build_path()
+    closed_loop = build_closed_loop_report()
     task_suite = build_task_suite()
     minimum_jerk = build_minimum_jerk_report()
     shutil.copy2(OUT / "demo.mp4", MEDIA / "demo.mp4")
@@ -148,6 +150,8 @@ def main() -> None:
         "real_world_condition_scenarios": real_world_eval["scenario_count"],
         "hardware_adaptation_path_score": hardware_path["trial_path_score"],
         "hardware_adaptation_path_stages": hardware_path["stage_count"],
+        "closed_loop_integration_score": closed_loop["integration_score"],
+        "closed_loop_story_beats": len(closed_loop["story_beats"]),
         "arena_task_count": task_suite["task_count"],
         "arena_success_rate": task_suite["success_rate"],
         "arena_max_pose_error_mm": task_suite["max_pose_error_mm"],
@@ -228,6 +232,7 @@ def main() -> None:
                 "logged_channels": list(rows[0].keys()),
                 "arena_suite": "dataset/task_suite_report.json",
                 "minimum_jerk_controller": "dataset/minimum_jerk_report.json",
+                "closed_loop_integration": "dataset/closed_loop_integration_report.json",
                 "hardware_replay_trial": "dataset/hardware_replay_trial_report.json",
                 "robot_execution_bridge": "dataset/robot_execution_bridge_report.json",
                 "hardware_adaptation_path": "dataset/hardware_adaptation_path.json",
@@ -263,6 +268,10 @@ def main() -> None:
                     "224 degree cap rotation",
                     "slip recovery",
                     "closed-loop tactile feedback",
+                    "closed-loop control",
+                    "five-finger grasp",
+                    "uncap and place-ready cue",
+                    "engaging four-beat demo",
                     "five fingertip taxel streams",
                     "9x load hold",
                     "30/30 validation",
@@ -301,6 +310,8 @@ def main() -> None:
                 "highlight_moments": "dataset/highlight_moments.json",
                 "arena_suite": "dataset/task_suite_report.json",
                 "minimum_jerk": "dataset/minimum_jerk_report.json",
+                "closed_loop_integration": "dataset/closed_loop_integration_report.json",
+                "closed_loop_story_beats": "dataset/closed_loop_story_beats.csv",
                 "hardware_replay_trial": "dataset/hardware_replay_trial_report.json",
                 "robot_execution_bridge": "dataset/robot_execution_bridge_report.json",
                 "hardware_adaptation_path": "dataset/hardware_adaptation_path.json",
@@ -320,6 +331,7 @@ def main() -> None:
                 "target_score_signal": 90.5,
                 "video_narration_style": "clean_hardware_highlight_reel",
                 "video_highlight_strategy": "four_visual_punch_moments",
+                "closed_loop_integration_signal": "five_finger_uncap_slip_recovery_place_ready",
                 "video_information_density": "clean_two_line_overlay",
                 "subtitle_information_density": "clean_short_caption",
                 "hardware_execution_signal": "ready_50hz_low_torque_robot_bridge",
@@ -338,6 +350,8 @@ def main() -> None:
                             "clean_hardware_highlight_reel",
                             "visible_50hz_hardware_bridge",
                             "visual_highlight_cues",
+                            "closed_loop_control",
+                            "dataset/closed_loop_integration_report.json",
                             "dataset/highlight_moments.json",
                             "hardware_replay_trial",
                             "LEAP and Shadow robot execution bridge packets",
@@ -359,6 +373,11 @@ def main() -> None:
                             "clean_short_caption",
                             "clean_two_line_overlay",
                             "four_visual_punch_moments",
+                            "five_finger_grasp",
+                            "cap_twist",
+                            "slip_recovery",
+                            "uncap_and_place_ready_cue",
+                            "dataset/closed_loop_integration_report.json",
                             "large_on_video_captions",
                             "large_on_video_captions_without_detail_lines",
                             "visual_spotlight_cues",
@@ -386,6 +405,9 @@ def main() -> None:
                             "GRASP_TWIST_CATCH_REPLAY flair captions",
                             "short SRT lines under 28 characters",
                             "held_clean_beats",
+                            "engaging_four_beat_demo",
+                            "five_finger_closed_loop_integration",
+                            "dataset/closed_loop_story_beats.csv",
                             "hardware_replay_trial",
                             "robot_execution_bridge",
                             "refined_hardware_adaptation_path",

@@ -29,6 +29,8 @@ def main() -> None:
     require("dataset/contact_timeline.json")
     tactile = json.loads(require("dataset/tactile_feedback_report.json").read_text())
     require("dataset/tactile_taxels.csv")
+    closed_loop = json.loads(require("dataset/closed_loop_integration_report.json").read_text())
+    require("dataset/closed_loop_story_beats.csv")
     require("dataset/stress_eval.json")
     hardware = json.loads(require("dataset/hardware_adaptation_report.json").read_text())
     require("dataset/hardware_command_stream.csv")
@@ -59,6 +61,11 @@ def main() -> None:
         "stress_success": validation.get("success_rate", 0) >= 1.0,
         "tactile_feedback": tactile.get("tactile_channels") == 5
         and tactile.get("slip_recovered_below_0_40_mm") is True,
+        "closed_loop_integration": closed_loop.get("integration_score", 0) >= 0.98
+        and closed_loop.get("five_finger_grasp") is True
+        and closed_loop.get("closed_loop_control") is True
+        and closed_loop.get("uncap_sequence") is True
+        and closed_loop.get("tray_ready_place_cue") is True,
         "hardware_adaptation": hardware.get("overall_pass") is True,
         "task_suite": task_suite.get("task_count") == 15
         and task_suite.get("success_rate", 0) >= 1.0

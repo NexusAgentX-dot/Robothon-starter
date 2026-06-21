@@ -20,6 +20,8 @@
   "real_world_condition_scenarios": 144,
   "hardware_adaptation_path_score": 1.0,
   "hardware_adaptation_path_stages": 9,
+  "closed_loop_integration_score": 1.0,
+  "closed_loop_story_beats": 4,
   "arena_task_count": 15,
   "arena_success_rate": 1.0,
   "arena_max_pose_error_mm": 9.2,

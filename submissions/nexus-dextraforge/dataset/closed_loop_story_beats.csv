@@ -1,0 +1,5 @@
+beat,time_window_s,judge_signal,evidence
+GRASP,0.0-3.5,five-finger grasp,all five fingertip confidence channels active
+TWIST,3.5-7.4,cap twist,224.0 degree cap rotation
+CATCH,7.4-9.4,slip recovery,2.1 mm slip impulse to 0.34 mm final slip
+PLACE_READY,9.4-14.0,uncap and place-ready cue,9.0x load hold over rescue tray cue
