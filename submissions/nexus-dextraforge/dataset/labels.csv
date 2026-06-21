@@ -1,0 +1,5 @@
+start_s,end_s,label
+0.0,3.5,GRASP: five-finger lock
+3.5,7.4,TWIST: 224 deg cap turn
+7.4,11.8,CATCH: 0.34 mm slip
+11.8,14.0,REPLAY: hardware bridge

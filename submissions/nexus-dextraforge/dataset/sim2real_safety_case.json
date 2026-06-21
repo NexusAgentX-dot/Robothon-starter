@@ -1,0 +1,17 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "e_stop_conditions": [
+    "slip_estimate_mm > 2.5",
+    "pressure_target_n > 6.0",
+    "watchdog_timeout_ms > 80",
+    "joint_target outside calibrated hardware limits"
+  ],
+  "startup_calibration": [
+    "home all 15 joints",
+    "run low-pressure vial touch check",
+    "estimate cap friction from first 20 deg of twist",
+    "enable slip boost only after stable five-finger contact"
+  ],
+  "replay_mode": "dry-run packet validation first, then low-torque hardware replay",
+  "status": "pass"
+}

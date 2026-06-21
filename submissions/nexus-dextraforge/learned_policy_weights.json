@@ -1,0 +1,23 @@
+{
+  "policy_type": "fixed_seed_tactile_residual_pressure_policy",
+  "feature_order": [
+    "thumb_pressure",
+    "index_pressure",
+    "middle_pressure",
+    "cap_angle_error",
+    "slip_error"
+  ],
+  "weights": [
+    0.419864,
+    -0.180079,
+    0.310115,
+    0.270126,
+    -0.090327
+  ],
+  "bias": 0.0,
+  "inference_outputs": [
+    "pressure_boost_n",
+    "cap_torque_bias",
+    "slip_recovery_gain"
+  ]
+}

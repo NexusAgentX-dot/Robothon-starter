@@ -1,0 +1,9 @@
+{
+  "policy_type": "fixed_seed_tactile_residual_pressure_policy",
+  "controller": "phased finite-state gait with tactile normal/shear feedback and learned residual pressure card",
+  "hardware_transfer": "hardware_transfer.json",
+  "safety_limits": {
+    "max_pressure_n": 6.0,
+    "slip_abort_mm": 2.5
+  }
+}

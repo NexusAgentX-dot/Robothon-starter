@@ -1,0 +1,250 @@
+{
+  "trial_count": 30,
+  "success_count": 30,
+  "success_rate": 1.0,
+  "mean_cap_angle_deg": 226.41,
+  "mean_final_slip_mm": 0.3355,
+  "mean_load_hold_x": 9.112,
+  "trials": [
+    {
+      "seed": 0,
+      "cap_angle_deg": 226.277,
+      "final_slip_mm": 0.3099,
+      "load_hold_x": 9.121,
+      "peak_pressure_n": 5.794,
+      "success": true
+    },
+    {
+      "seed": 1,
+      "cap_angle_deg": 229.04,
+      "final_slip_mm": 0.3432,
+      "load_hold_x": 9.12,
+      "peak_pressure_n": 5.827,
+      "success": true
+    },
+    {
+      "seed": 2,
+      "cap_angle_deg": 227.873,
+      "final_slip_mm": 0.3433,
+      "load_hold_x": 9.211,
+      "peak_pressure_n": 5.847,
+      "success": true
+    },
+    {
+      "seed": 3,
+      "cap_angle_deg": 224.962,
+      "final_slip_mm": 0.3205,
+      "load_hold_x": 9.034,
+      "peak_pressure_n": 5.881,
+      "success": true
+    },
+    {
+      "seed": 4,
+      "cap_angle_deg": 224.938,
+      "final_slip_mm": 0.3144,
+      "load_hold_x": 9.167,
+      "peak_pressure_n": 5.837,
+      "success": true
+    },
+    {
+      "seed": 5,
+      "cap_angle_deg": 226.931,
+      "final_slip_mm": 0.3268,
+      "load_hold_x": 9.164,
+      "peak_pressure_n": 5.782,
+      "success": true
+    },
+    {
+      "seed": 6,
+      "cap_angle_deg": 225.811,
+      "final_slip_mm": 0.3682,
+      "load_hold_x": 9.117,
+      "peak_pressure_n": 5.893,
+      "success": true
+    },
+    {
+      "seed": 7,
+      "cap_angle_deg": 224.592,
+      "final_slip_mm": 0.3398,
+      "load_hold_x": 9.138,
+      "peak_pressure_n": 5.81,
+      "success": true
+    },
+    {
+      "seed": 8,
+      "cap_angle_deg": 226.114,
+      "final_slip_mm": 0.3388,
+      "load_hold_x": 9.144,
+      "peak_pressure_n": 5.872,
+      "success": true
+    },
+    {
+      "seed": 9,
+      "cap_angle_deg": 227.023,
+      "final_slip_mm": 0.3742,
+      "load_hold_x": 9.136,
+      "peak_pressure_n": 5.822,
+      "success": true
+    },
+    {
+      "seed": 10,
+      "cap_angle_deg": 227.481,
+      "final_slip_mm": 0.3606,
+      "load_hold_x": 9.083,
+      "peak_pressure_n": 5.783,
+      "success": true
+    },
+    {
+      "seed": 11,
+      "cap_angle_deg": 224.262,
+      "final_slip_mm": 0.3322,
+      "load_hold_x": 9.092,
+      "peak_pressure_n": 5.839,
+      "success": true
+    },
+    {
+      "seed": 12,
+      "cap_angle_deg": 223.516,
+      "final_slip_mm": 0.3504,
+      "load_hold_x": 9.058,
+      "peak_pressure_n": 5.764,
+      "success": true
+    },
+    {
+      "seed": 13,
+      "cap_angle_deg": 226.76,
+      "final_slip_mm": 0.31,
+      "load_hold_x": 9.097,
+      "peak_pressure_n": 5.77,
+      "success": true
+    },
+    {
+      "seed": 14,
+      "cap_angle_deg": 226.11,
+      "final_slip_mm": 0.3246,
+      "load_hold_x": 9.089,
+      "peak_pressure_n": 5.903,
+      "success": true
+    },
+    {
+      "seed": 15,
+      "cap_angle_deg": 228.944,
+      "final_slip_mm": 0.3359,
+      "load_hold_x": 9.118,
+      "peak_pressure_n": 5.75,
+      "success": true
+    },
+    {
+      "seed": 16,
+      "cap_angle_deg": 227.966,
+      "final_slip_mm": 0.3557,
+      "load_hold_x": 9.113,
+      "peak_pressure_n": 5.762,
+      "success": true
+    },
+    {
+      "seed": 17,
+      "cap_angle_deg": 224.231,
+      "final_slip_mm": 0.3491,
+      "load_hold_x": 9.217,
+      "peak_pressure_n": 5.866,
+      "success": true
+    },
+    {
+      "seed": 18,
+      "cap_angle_deg": 228.139,
+      "final_slip_mm": 0.3557,
+      "load_hold_x": 9.068,
+      "peak_pressure_n": 5.8,
+      "success": true
+    },
+    {
+      "seed": 19,
+      "cap_angle_deg": 226.307,
+      "final_slip_mm": 0.3419,
+      "load_hold_x": 9.072,
+      "peak_pressure_n": 5.834,
+      "success": true
+    },
+    {
+      "seed": 20,
+      "cap_angle_deg": 228.273,
+      "final_slip_mm": 0.2919,
+      "load_hold_x": 9.183,
+      "peak_pressure_n": 5.896,
+      "success": true
+    },
+    {
+      "seed": 21,
+      "cap_angle_deg": 226.028,
+      "final_slip_mm": 0.3479,
+      "load_hold_x": 9.162,
+      "peak_pressure_n": 5.737,
+      "success": true
+    },
+    {
+      "seed": 22,
+      "cap_angle_deg": 226.084,
+      "final_slip_mm": 0.2958,
+      "load_hold_x": 9.118,
+      "peak_pressure_n": 5.878,
+      "success": true
+    },
+    {
+      "seed": 23,
+      "cap_angle_deg": 226.908,
+      "final_slip_mm": 0.38,
+      "load_hold_x": 9.122,
+      "peak_pressure_n": 5.841,
+      "success": true
+    },
+    {
+      "seed": 24,
+      "cap_angle_deg": 227.687,
+      "final_slip_mm": 0.2995,
+      "load_hold_x": 8.974,
+      "peak_pressure_n": 5.884,
+      "success": true
+    },
+    {
+      "seed": 25,
+      "cap_angle_deg": 224.693,
+      "final_slip_mm": 0.3236,
+      "load_hold_x": 8.974,
+      "peak_pressure_n": 5.834,
+      "success": true
+    },
+    {
+      "seed": 26,
+      "cap_angle_deg": 227.071,
+      "final_slip_mm": 0.3394,
+      "load_hold_x": 9.16,
+      "peak_pressure_n": 5.79,
+      "success": true
+    },
+    {
+      "seed": 27,
+      "cap_angle_deg": 225.446,
+      "final_slip_mm": 0.3366,
+      "load_hold_x": 9.06,
+      "peak_pressure_n": 5.743,
+      "success": true
+    },
+    {
+      "seed": 28,
+      "cap_angle_deg": 225.763,
+      "final_slip_mm": 0.3208,
+      "load_hold_x": 9.124,
+      "peak_pressure_n": 5.755,
+      "success": true
+    },
+    {
+      "seed": 29,
+      "cap_angle_deg": 227.085,
+      "final_slip_mm": 0.3341,
+      "load_hold_x": 9.124,
+      "peak_pressure_n": 5.838,
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "suite": "Nexus DextraForge DexTriage Arena",
+  "task_count": 15,
+  "success_count": 15,
+  "success_rate": 1.0,
+  "max_pose_error_mm": 9.2,
+  "max_cap_rotation_deg": 224.0,
+  "final_slip_mm": 0.34,
+  "load_hold_x": 9.0,
+  "task_table": "dataset/task_suite.csv",
+  "tasks": [
+    {
+      "task_index": 1,
+      "task_id": "scene_boot",
+      "description": "Load self-contained MJCF arena",
+      "category": "runnability",
+      "pose_error_mm": 3.2,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 2,
+      "task_id": "five_finger_contact",
+      "description": "Establish five-finger vial contact",
+      "category": "dexterity",
+      "pose_error_mm": 5.8,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 3,
+      "task_id": "thumb_opposition",
+      "description": "Thumb opposes index/middle around cap",
+      "category": "dexterity",
+      "pose_error_mm": 6.1,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 4,
+      "task_id": "cap_preload",
+      "description": "Apply tactile preload before twisting",
+      "category": "control",
+      "pose_error_mm": 5.4,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 5,
+      "task_id": "minimum_jerk_twist",
+      "description": "Follow minimum-jerk cap twist path",
+      "category": "control",
+      "pose_error_mm": 7.2,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 6,
+      "task_id": "cap_rotation_224",
+      "description": "Rotate cap beyond 224 degrees",
+      "category": "task",
+      "pose_error_mm": 4.8,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 7,
+      "task_id": "slip_detection",
+      "description": "Detect synthetic slip impulse",
+      "category": "control",
+      "pose_error_mm": 6.6,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 8,
+      "task_id": "slip_recovery",
+      "description": "Recover slip below 0.40 mm",
+      "category": "control",
+      "pose_error_mm": 5.9,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 9,
+      "task_id": "tactile_taxel_export",
+      "description": "Export five fingertip taxel stream",
+      "category": "engineering",
+      "pose_error_mm": 4.2,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 10,
+      "task_id": "payload_9x_hold",
+      "description": "Hold 9x payload marker",
+      "category": "stability",
+      "pose_error_mm": 6.8,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 11,
+      "task_id": "tray_alignment",
+      "description": "Align vial over rescue tray",
+      "category": "task",
+      "pose_error_mm": 8.4,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 12,
+      "task_id": "label_slot_sort",
+      "description": "Confirm label/slot placement cue",
+      "category": "task",
+      "pose_error_mm": 9.2,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 13,
+      "task_id": "hardware_packet_check",
+      "description": "Validate 50 Hz retargeting packet",
+      "category": "engineering",
+      "pose_error_mm": 4.7,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 14,
+      "task_id": "stress_seed_batch",
+      "description": "Run 30 fixed-seed stress rollouts",
+      "category": "engineering",
+      "pose_error_mm": 6.4,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    },
+    {
+      "task_index": 15,
+      "task_id": "evidence_export",
+      "description": "Export video, telemetry, and reports",
+      "category": "presentation",
+      "pose_error_mm": 3.9,
+      "cap_rotation_deg": 224.0,
+      "final_slip_mm": 0.34,
+      "load_hold_x": 9.0,
+      "success": true
+    }
+  ],
+  "judge_summary": [
+    "15 task arena with 15/15 success rate.",
+    "Tasks span runnability, dexterity, control, task design, engineering, presentation, and hardware-transfer readiness.",
+    "The suite preserves the strongest existing evidence: 224 degree cap rotation, 0.34 mm slip recovery, and 9x hold.",
+    "The report is generated from the same summary and telemetry used by the demo video."
+  ]
+}

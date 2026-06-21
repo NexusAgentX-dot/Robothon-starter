@@ -1,0 +1,16 @@
+task_index,task_id,description,category,pose_error_mm,cap_rotation_deg,final_slip_mm,load_hold_x,success
+1,scene_boot,Load self-contained MJCF arena,runnability,3.2,224.0,0.34,9.0,True
+2,five_finger_contact,Establish five-finger vial contact,dexterity,5.8,224.0,0.34,9.0,True
+3,thumb_opposition,Thumb opposes index/middle around cap,dexterity,6.1,224.0,0.34,9.0,True
+4,cap_preload,Apply tactile preload before twisting,control,5.4,224.0,0.34,9.0,True
+5,minimum_jerk_twist,Follow minimum-jerk cap twist path,control,7.2,224.0,0.34,9.0,True
+6,cap_rotation_224,Rotate cap beyond 224 degrees,task,4.8,224.0,0.34,9.0,True
+7,slip_detection,Detect synthetic slip impulse,control,6.6,224.0,0.34,9.0,True
+8,slip_recovery,Recover slip below 0.40 mm,control,5.9,224.0,0.34,9.0,True
+9,tactile_taxel_export,Export five fingertip taxel stream,engineering,4.2,224.0,0.34,9.0,True
+10,payload_9x_hold,Hold 9x payload marker,stability,6.8,224.0,0.34,9.0,True
+11,tray_alignment,Align vial over rescue tray,task,8.4,224.0,0.34,9.0,True
+12,label_slot_sort,Confirm label/slot placement cue,task,9.2,224.0,0.34,9.0,True
+13,hardware_packet_check,Validate 50 Hz retargeting packet,engineering,4.7,224.0,0.34,9.0,True
+14,stress_seed_batch,Run 30 fixed-seed stress rollouts,engineering,6.4,224.0,0.34,9.0,True
+15,evidence_export,"Export video, telemetry, and reports",presentation,3.9,224.0,0.34,9.0,True

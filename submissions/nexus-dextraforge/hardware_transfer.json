@@ -1,0 +1,56 @@
+{
+  "target_hands": ["LEAP Hand", "Shadow-style five-finger hand", "Allegro-style 4+ thumb hands"],
+  "control_rate_hz": 50,
+  "transfer_status": "hardware-readiness audit included; no physical robot execution claimed",
+  "sim_to_hardware_notes": [
+    "Normalize each MuJoCo hinge target from joint range to hardware joint min/max.",
+    "Run the cap-twist gait as thumb/index/middle alternating pressure primitives.",
+    "Use tactile or motor-current thresholds to trigger the slip recovery pressure boost.",
+    "Keep the payload-hold phase as a static grip validation before attempting transport.",
+    "Replay dataset/hardware_command_stream.csv in dry-run mode before enabling motor torque.",
+    "Use dataset/hardware_adaptation_report.json to verify range, velocity, pressure, and quantization margins."
+  ],
+  "command_schema": {
+    "timestamp_s": "float",
+    "hand": "left_or_right",
+    "joint_targets_rad": "ordered list of 15 simulated joint targets",
+    "pressure_target_n": "float",
+    "safety_stop": "boolean"
+  },
+  "joint_order": [
+    "thumb_prox",
+    "thumb_mid",
+    "thumb_dist",
+    "index_prox",
+    "index_mid",
+    "index_dist",
+    "middle_prox",
+    "middle_mid",
+    "middle_dist",
+    "ring_prox",
+    "ring_mid",
+    "ring_dist",
+    "little_prox",
+    "little_mid",
+    "little_dist"
+  ],
+  "safety_limits": {
+    "max_pressure_target_n": 6.0,
+    "max_joint_velocity_rad_s": 1.8,
+    "slip_recovery_abort_mm": 2.5,
+    "watchdog_timeout_ms": 80,
+    "position_quantization_bits": 12
+  },
+  "hardware_profiles": {
+    "LEAP Hand": {
+      "transport": "ROS2 JointTrajectory or newline-delimited serial JSON",
+      "feedback": ["motor_current", "joint_position", "optional_fingertip_taxel"],
+      "dry_run_artifact": "dataset/hardware_command_stream.csv"
+    },
+    "Shadow-style five-finger hand": {
+      "transport": "joint target packet with per-finger pressure primitive",
+      "feedback": ["motor_current", "joint_position", "tactile_pressure"],
+      "dry_run_artifact": "dataset/hardware_command_stream.csv"
+    }
+  }
+}

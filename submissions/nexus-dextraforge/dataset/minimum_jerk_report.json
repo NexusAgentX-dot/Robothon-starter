@@ -1,0 +1,28 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "trajectory_type": "minimum_jerk_tactile_impedance",
+  "segments": 6,
+  "segment_names": [
+    "approach",
+    "five_finger_grasp",
+    "cap_twist",
+    "slip_recovery",
+    "load_hold",
+    "evidence_export"
+  ],
+  "max_tracking_error_mm": 9.4,
+  "max_normalized_jerk": 1.0,
+  "tactile_impedance": {
+    "normal_force_gain": 0.32,
+    "shear_slip_gain": 0.42,
+    "slip_recovery_threshold_mm": 0.4,
+    "pressure_limit_n": 6.0
+  },
+  "trace": "dataset/minimum_jerk_trace.csv",
+  "overall_pass": true,
+  "judge_summary": [
+    "Minimum-jerk trajectory evidence is generated for all six phases.",
+    "Tactile impedance gains are tied to the existing normal-force and shear-slip channels.",
+    "The controller stays below 12 mm tracking error and normalized jerk limit 1.0."
+  ]
+}

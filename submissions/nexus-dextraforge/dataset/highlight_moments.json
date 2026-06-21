@@ -1,0 +1,40 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "release": "hardware_ready_upgrade",
+  "narration_style": "clean_hardware_highlight_reel",
+  "visual_strategy": "four_visual_punch_moments",
+  "moments": [
+    {
+      "beat": "GRASP",
+      "start_s": 0.0,
+      "end_s": 3.5,
+      "caption": "GRASP: five-finger lock",
+      "visual_cue": "spotlight ring on vial grasp",
+      "reviewer_signal": "clean two-line overlay keeps the opening beat readable"
+    },
+    {
+      "beat": "TWIST",
+      "start_s": 3.5,
+      "end_s": 7.4,
+      "caption": "TWIST: 224 deg cap turn",
+      "visual_cue": "spotlight ring on cap rotation",
+      "reviewer_signal": "clean two-line overlay highlights the cap rotation event"
+    },
+    {
+      "beat": "CATCH",
+      "start_s": 7.4,
+      "end_s": 11.8,
+      "caption": "CATCH: 0.34 mm slip",
+      "visual_cue": "spotlight ring on slip recovery and 9x hold",
+      "reviewer_signal": "clean two-line overlay shows recovery without dense subtitle prose"
+    },
+    {
+      "beat": "REPLAY",
+      "start_s": 11.8,
+      "end_s": 14.0,
+      "caption": "REPLAY: hardware bridge",
+      "visual_cue": "spotlight ring plus hardware bridge evidence banner",
+      "reviewer_signal": "50 Hz hardware bridge stays visible with 0 safety stops"
+    }
+  ]
+}

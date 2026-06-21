@@ -1,0 +1,5378 @@
+[
+  {
+    "time_s": 0.0,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.0417,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.0833,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.125,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.1667,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.2083,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.25,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.2917,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.3333,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.375,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.4167,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.4583,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.5,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.5417,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.5833,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.625,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.6667,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.7083,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.75,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.7917,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.8333,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.875,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.9167,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 0.9583,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.0,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.0417,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.0833,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.125,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.1667,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.25,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.2083,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.2502,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.25,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.2577,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.2917,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.2754,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.3333,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.3029,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.375,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.3398,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.4167,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.3856,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.4583,
+    "phase": "scene ready",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.4398,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.5,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.5021,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.5417,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.572,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.5833,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.6489,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.625,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.7326,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.6667,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.8224,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.7083,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 0.918,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.75,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 1.0189,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.7917,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 1.1247,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.8333,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 1.2349,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.875,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 1.3491,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.9167,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 1.4667,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 1.9583,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 1.5875,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.0,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 1.7108,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.0417,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 1.8363,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.0833,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 1.9635,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.125,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 2.092,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.1667,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 2.2213,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.2083,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 2.3509,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.25,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 2.4805,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.2917,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 2.6095,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.3333,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 2.7375,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.375,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 2.8641,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.4167,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 2.9888,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.4583,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 3.1112,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.5,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 3.2307,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.5417,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 3.3471,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.5833,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 3.4597,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.625,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 3.5682,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.6667,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 3.6721,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.7083,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 3.7709,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.75,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 3.8643,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.7917,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 3.9517,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.8333,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.0327,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.875,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.1069,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.9167,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.1737,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 2.9583,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.2329,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.0,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.2838,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.0417,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.3261,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.0833,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.3593,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.125,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.3829,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.1667,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.3966,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.2083,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.25,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.2917,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.3333,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.375,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.4167,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.4583,
+    "phase": "closed-loop five-finger grasp",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.5,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.5417,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.5833,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.0,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.625,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.003,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.6667,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.026,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.7083,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.087,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.75,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.2,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.7917,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.38,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.8333,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.637,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.875,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 0.981,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.9167,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 1.418,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 3.9583,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 1.955,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.0,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 2.596,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.0417,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 3.345,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.0833,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 4.206,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.125,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 5.18,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.1667,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 6.268,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.2083,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 7.47,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.25,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 8.788,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.2917,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 10.219,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.3333,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 11.765,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.375,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 13.422,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.4167,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 15.19,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.4583,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 17.067,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.5,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 19.051,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.5417,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 21.139,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.5833,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 23.329,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.625,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 25.617,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.6667,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 28.003,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.7083,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 30.481,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.75,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 33.05,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.7917,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 35.706,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.8333,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 38.446,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.875,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 41.267,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.9167,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 44.165,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 4.9583,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 47.136,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.0,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 50.178,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.0417,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 53.286,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.0833,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 56.458,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.125,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 59.689,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.1667,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 62.976,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.2083,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 66.315,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.25,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 69.703,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.2917,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 73.136,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.3333,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 76.609,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.375,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 80.121,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.4167,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 83.665,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.4583,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 87.24,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.5,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 90.841,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.5417,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 94.464,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.5833,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 98.106,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.625,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 101.762,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.6667,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 105.43,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.7083,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 109.104,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.75,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 112.782,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.7917,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 116.46,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.8333,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 120.133,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.875,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 123.798,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.9167,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 127.451,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 5.9583,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 131.089,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.0,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 134.707,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.0417,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 138.301,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.0833,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 141.868,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.125,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 145.405,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.1667,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 148.906,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.2083,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 152.369,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.25,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 155.789,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.2917,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 159.162,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.3333,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 162.486,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.375,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 165.755,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.4167,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 168.967,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.4583,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 172.117,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.5,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 175.201,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.5417,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 178.216,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.5833,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 181.158,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.625,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 184.022,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.6667,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 186.806,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.7083,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 189.505,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.75,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 192.116,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.7917,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 194.634,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.8333,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 197.055,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.875,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 199.377,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.9167,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 201.595,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 6.9583,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 203.705,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.0,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 205.703,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.0417,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 207.586,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.0833,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 209.35,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.125,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 210.99,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.1667,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 212.504,
+    "pressure_target_n": 4.4001,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.2083,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 213.887,
+    "pressure_target_n": 4.4001,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.25,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 215.135,
+    "pressure_target_n": 4.4003,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.2917,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 216.245,
+    "pressure_target_n": 4.4005,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.3333,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 217.218,
+    "pressure_target_n": 4.4011,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.375,
+    "phase": "cap rotation + tactile feedback",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 218.069,
+    "pressure_target_n": 4.4021,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.4167,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 218.813,
+    "pressure_target_n": 4.4038,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.4583,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 219.464,
+    "pressure_target_n": 4.4069,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.5,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 220.033,
+    "pressure_target_n": 4.4119,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.5417,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 220.531,
+    "pressure_target_n": 4.4202,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.5833,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 220.967,
+    "pressure_target_n": 4.4332,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.625,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 221.347,
+    "pressure_target_n": 4.4528,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.6667,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 221.68,
+    "pressure_target_n": 4.4816,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.7083,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 221.971,
+    "pressure_target_n": 4.5225,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.75,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 222.226,
+    "pressure_target_n": 4.5783,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.7917,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 222.448,
+    "pressure_target_n": 4.6518,
+    "slip_estimate_mm": 0.3412,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.8333,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 222.643,
+    "pressure_target_n": 4.7452,
+    "slip_estimate_mm": 0.4677,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.875,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 222.813,
+    "pressure_target_n": 4.8592,
+    "slip_estimate_mm": 0.6222,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.9167,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 222.962,
+    "pressure_target_n": 4.9928,
+    "slip_estimate_mm": 0.8031,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 7.9583,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.093,
+    "pressure_target_n": 5.1426,
+    "slip_estimate_mm": 1.0061,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.0,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.206,
+    "pressure_target_n": 5.3027,
+    "slip_estimate_mm": 1.223,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.0417,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.306,
+    "pressure_target_n": 5.4648,
+    "slip_estimate_mm": 1.4426,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.0833,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.393,
+    "pressure_target_n": 5.6189,
+    "slip_estimate_mm": 1.6514,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.125,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.469,
+    "pressure_target_n": 5.754,
+    "slip_estimate_mm": 1.8345,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.1667,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.536,
+    "pressure_target_n": 5.8596,
+    "slip_estimate_mm": 1.9776,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.2083,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.594,
+    "pressure_target_n": 5.9269,
+    "slip_estimate_mm": 2.0687,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.25,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.645,
+    "pressure_target_n": 5.95,
+    "slip_estimate_mm": 2.1,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.2917,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.69,
+    "pressure_target_n": 5.9269,
+    "slip_estimate_mm": 2.0625,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.3333,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.729,
+    "pressure_target_n": 5.8596,
+    "slip_estimate_mm": 1.9544,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.375,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.763,
+    "pressure_target_n": 5.754,
+    "slip_estimate_mm": 1.7875,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.4167,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.792,
+    "pressure_target_n": 5.6189,
+    "slip_estimate_mm": 1.5781,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.4583,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.818,
+    "pressure_target_n": 5.4648,
+    "slip_estimate_mm": 1.3452,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.5,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.841,
+    "pressure_target_n": 5.3027,
+    "slip_estimate_mm": 1.1073,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.5417,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.861,
+    "pressure_target_n": 5.1426,
+    "slip_estimate_mm": 0.8802,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.5833,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.879,
+    "pressure_target_n": 4.9928,
+    "slip_estimate_mm": 0.6758,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.625,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.894,
+    "pressure_target_n": 4.8592,
+    "slip_estimate_mm": 0.501,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.6667,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.907,
+    "pressure_target_n": 4.7452,
+    "slip_estimate_mm": 0.3587,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.7083,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.919,
+    "pressure_target_n": 4.6518,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.75,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.929,
+    "pressure_target_n": 4.5783,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.7917,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.938,
+    "pressure_target_n": 4.5225,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.0,
+    "success_window": false
+  },
+  {
+    "time_s": 8.8333,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.946,
+    "pressure_target_n": 4.4816,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.013,
+    "success_window": false
+  },
+  {
+    "time_s": 8.875,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.953,
+    "pressure_target_n": 4.4528,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.066,
+    "success_window": false
+  },
+  {
+    "time_s": 8.9167,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.958,
+    "pressure_target_n": 4.4332,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.157,
+    "success_window": false
+  },
+  {
+    "time_s": 8.9583,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.964,
+    "pressure_target_n": 4.4202,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.284,
+    "success_window": false
+  },
+  {
+    "time_s": 9.0,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.968,
+    "pressure_target_n": 4.4119,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.443,
+    "success_window": false
+  },
+  {
+    "time_s": 9.0417,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.972,
+    "pressure_target_n": 4.4069,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.633,
+    "success_window": false
+  },
+  {
+    "time_s": 9.0833,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.976,
+    "pressure_target_n": 4.4038,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 1.85,
+    "success_window": false
+  },
+  {
+    "time_s": 9.125,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.979,
+    "pressure_target_n": 4.4021,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 2.093,
+    "success_window": false
+  },
+  {
+    "time_s": 9.1667,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.981,
+    "pressure_target_n": 4.4011,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 2.359,
+    "success_window": false
+  },
+  {
+    "time_s": 9.2083,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.984,
+    "pressure_target_n": 4.4005,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 2.645,
+    "success_window": false
+  },
+  {
+    "time_s": 9.25,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.986,
+    "pressure_target_n": 4.4003,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 2.948,
+    "success_window": false
+  },
+  {
+    "time_s": 9.2917,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.988,
+    "pressure_target_n": 4.4001,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 3.267,
+    "success_window": false
+  },
+  {
+    "time_s": 9.3333,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.989,
+    "pressure_target_n": 4.4001,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 3.598,
+    "success_window": false
+  },
+  {
+    "time_s": 9.375,
+    "phase": "slip recovery below 0.40 mm",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.991,
+    "pressure_target_n": 4.4,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 3.94,
+    "success_window": false
+  },
+  {
+    "time_s": 9.4167,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.992,
+    "pressure_target_n": 4.4006,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.4583,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.993,
+    "pressure_target_n": 4.4073,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.5,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.994,
+    "pressure_target_n": 4.421,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.5417,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.994,
+    "pressure_target_n": 4.4409,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.5833,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.995,
+    "pressure_target_n": 4.4667,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.625,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.996,
+    "pressure_target_n": 4.4976,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.6667,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.996,
+    "pressure_target_n": 4.533,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.7083,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.997,
+    "pressure_target_n": 4.5725,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.75,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.997,
+    "pressure_target_n": 4.6154,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.7917,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.998,
+    "pressure_target_n": 4.661,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.8333,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.998,
+    "pressure_target_n": 4.709,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.875,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.998,
+    "pressure_target_n": 4.7585,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.9167,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.998,
+    "pressure_target_n": 4.8091,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 9.9583,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.999,
+    "pressure_target_n": 4.8602,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.0,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.999,
+    "pressure_target_n": 4.9112,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.0417,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.999,
+    "pressure_target_n": 4.9615,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.0833,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.999,
+    "pressure_target_n": 5.0104,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.125,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.999,
+    "pressure_target_n": 5.0575,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.1667,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.999,
+    "pressure_target_n": 5.1022,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.2083,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.999,
+    "pressure_target_n": 5.1437,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.25,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 223.999,
+    "pressure_target_n": 5.1817,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.2917,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.2154,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.3333,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.2443,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.375,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.2678,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.4167,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.2853,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.4583,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.2962,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.5,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.5417,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.5833,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.625,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.6667,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.7083,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.75,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.7917,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.8333,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.875,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.9167,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 10.9583,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.0,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.0417,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.0833,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.125,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.1667,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.2083,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.25,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.2917,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.3333,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.375,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.4167,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.4583,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.5,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.5417,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.5833,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.625,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.6667,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.7083,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.75,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.7917,
+    "phase": "9x payload hold",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.8333,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.875,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.9167,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 11.9583,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.0,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.0417,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.0833,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.125,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.1667,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.2083,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.25,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.2917,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.3333,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.375,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.4167,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.4583,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.5,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.5417,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.5833,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.625,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.6667,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.7083,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.75,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.7917,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.8333,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.875,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.9167,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 12.9583,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.0,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.0417,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.0833,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.125,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.1667,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.2083,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.25,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.2917,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.3333,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.375,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.4167,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.4583,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.5,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.5417,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.5833,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.625,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.6667,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.7083,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.75,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.7917,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.8333,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.875,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.9167,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  },
+  {
+    "time_s": 13.9583,
+    "phase": "dataset + hardware export",
+    "active_fingers": [
+      "thumb",
+      "index",
+      "middle",
+      "ring",
+      "little"
+    ],
+    "cap_angle_deg": 224.0,
+    "pressure_target_n": 5.3,
+    "slip_estimate_mm": 0.34,
+    "load_hold_x": 9.0,
+    "success_window": true
+  }
+]

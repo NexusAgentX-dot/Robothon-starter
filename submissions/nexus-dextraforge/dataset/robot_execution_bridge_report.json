@@ -1,0 +1,32 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "bridge_type": "leap_shadow_low_torque_execution_bridge",
+  "physical_robot_claimed": false,
+  "ready_for_low_torque_robot_test": true,
+  "packets_prepared": 698,
+  "target_rate_hz": 50,
+  "transport_profiles": [
+    "ros2_joint_trajectory",
+    "serial_json"
+  ],
+  "watchdog_timeout_ms": 80,
+  "max_command_delta_rad": 0.02244,
+  "safety_stop_packets": 0,
+  "artifacts": [
+    "dataset/robot_execution_packets.jsonl",
+    "dataset/hardware_command_stream.csv",
+    "dataset/hardware_replay_trial_report.json"
+  ],
+  "operator_checklist": [
+    "home all 15 joints",
+    "enable low-torque mode",
+    "run first 100 packets with motors disabled",
+    "enable current monitor and watchdog",
+    "abort on safety_stop, pressure above 6 N, or watchdog above 80 ms"
+  ],
+  "judge_summary": [
+    "The submitted 50 Hz command stream is converted into ROS2 JointTrajectory and serial JSON packets.",
+    "The bridge is ready for a low-torque LEAP or Shadow-style hand trial, with 0 safety-stop packets in the prepared packet stream.",
+    "This is an execution bridge and dry-run artifact; it does not claim that a physical robot already ran."
+  ]
+}

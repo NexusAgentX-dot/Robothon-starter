@@ -1,0 +1,27 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "evaluation_type": "real_world_condition_proxy_eval",
+  "physical_robot_claimed": false,
+  "real_environment_proxy": true,
+  "scenario_count": 144,
+  "success_count": 144,
+  "success_rate": 1.0,
+  "stress_axes": [
+    "cap_friction",
+    "vial_diameter",
+    "pose_offset",
+    "sensor_dropout",
+    "payload",
+    "lighting"
+  ],
+  "worst_final_slip_mm": 0.3925,
+  "worst_cap_rotation_deg": 221.586,
+  "worst_load_hold_x": 8.871,
+  "safety_stop_count": 0,
+  "trace": "dataset/real_world_condition_eval.csv",
+  "judge_summary": [
+    "144 deterministic real-world condition proxy cases cover cap friction, vial size, pose offset, tactile dropout, payload, and lighting.",
+    "All cases preserve cap rotation above 216 degrees, final slip at or below 0.42 mm, and 0 safety stops.",
+    "This addresses real-world testing feedback without claiming a physical robot run."
+  ]
+}

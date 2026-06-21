@@ -1,0 +1,15 @@
+{
+  "project": "Nexus DextraForge DexTriage Arena",
+  "uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "frames": 336,
+  "duration_s": 14.0,
+  "max_cap_angle_deg": 224.0,
+  "final_slip_mm": 0.34,
+  "max_pressure_target_n": 5.95,
+  "load_hold_x": 9.0,
+  "tactile_channels": 5,
+  "closed_loop_feedback": true,
+  "success": true,
+  "video": "/Users/kb/Desktop/FF-bot/Robothon-starter/submissions/nexus-dextraforge/outputs/demo.mp4",
+  "telemetry": "/Users/kb/Desktop/FF-bot/Robothon-starter/submissions/nexus-dextraforge/outputs/telemetry.csv"
+}

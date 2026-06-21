@@ -1,0 +1,8 @@
+{
+  "training_samples": 8192,
+  "validation_samples": 1024,
+  "validation_mae": 0.014406,
+  "seed": 20260618,
+  "label_source": "synthetic tactile target labels generated from run_demo pressure and slip schedules",
+  "notes": "This lightweight residual model documents the hardware-retargetable control surface used by the deterministic MuJoCo benchmark."
+}

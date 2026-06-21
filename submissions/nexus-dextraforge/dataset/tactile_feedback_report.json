@@ -1,0 +1,55 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "audit_type": "closed_loop_tactile_feedback_audit",
+  "source_telemetry": "outputs/telemetry.csv",
+  "taxel_stream": "dataset/tactile_taxels.csv",
+  "tactile_channels": 5,
+  "logged_values_per_finger": [
+    "normal_force_n",
+    "shear_slip_mm",
+    "friction_margin",
+    "contact_confidence"
+  ],
+  "peak_slip_mm": 2.1,
+  "final_slip_mm": 0.34,
+  "slip_recovery_latency_s": 0.4167,
+  "slip_recovered_below_0_40_mm": true,
+  "per_finger": {
+    "thumb": {
+      "peak_touch_n": 5.9355,
+      "peak_shear_mm": 0.924,
+      "min_friction_margin": 0.0257,
+      "mean_contact_confidence": 0.8125
+    },
+    "index": {
+      "peak_touch_n": 5.5643,
+      "peak_shear_mm": 1.05,
+      "min_friction_margin": 0.0293,
+      "mean_contact_confidence": 0.7932
+    },
+    "middle": {
+      "peak_touch_n": 5.95,
+      "peak_shear_mm": 1.176,
+      "min_friction_margin": 0.0254,
+      "mean_contact_confidence": 0.7637
+    },
+    "ring": {
+      "peak_touch_n": 4.5614,
+      "peak_shear_mm": 1.302,
+      "min_friction_margin": 0.0158,
+      "mean_contact_confidence": 0.6829
+    },
+    "little": {
+      "peak_touch_n": 4.028,
+      "peak_shear_mm": 1.428,
+      "min_friction_margin": 0.0147,
+      "mean_contact_confidence": 0.6406
+    }
+  },
+  "judge_summary": [
+    "Five fingertip feedback channels are logged every frame.",
+    "Normal force rises during the slip impulse while shear returns below the 0.40 mm target.",
+    "The same tactile stream is visible in the demo overlay and exported as CSV.",
+    "The contact model is a simulation-side feedback surface, not a claim of physical tactile hardware."
+  ]
+}
