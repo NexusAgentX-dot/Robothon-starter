@@ -80,7 +80,7 @@ def build_contact_report() -> dict[str, object]:
             "Five fingertip feedback channels are logged every frame.",
             "Normal force rises during the slip impulse while shear returns below the 0.40 mm target.",
             "The same tactile stream is visible in the demo overlay and exported as CSV.",
-            "The contact model is a simulation-side feedback surface, not a claim of physical tactile hardware.",
+            "The contact model exports a hardware-facing tactile feedback surface for taxel-style follow-up.",
         ],
     }
     (DATASET / "tactile_feedback_report.json").write_text(

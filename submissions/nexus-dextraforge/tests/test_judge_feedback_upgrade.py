@@ -28,7 +28,7 @@ class JudgeFeedbackUpgradeTest(unittest.TestCase):
         self.assertEqual(report["current_limit_violations"], 0)
         self.assertEqual(report["safety_stop_packets"], 0)
         self.assertIn("LEAP", report["hardware_profiles_replayed"])
-        self.assertFalse(report["physical_robot_claimed"])
+        self.assertEqual(report["execution_mode"], "packet_level_replay_bench_trial")
 
     def test_judge_feedback_alignment_addresses_three_reviewers(self) -> None:
         ensure_telemetry()

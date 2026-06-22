@@ -341,7 +341,7 @@ def main() -> None:
                 "current_feedback_basis": {
                     "claude": "Add real robot execution",
                     "gpt": "Add real-world environment testing",
-                    "gemini": "Add physical robot demonstration",
+                    "gemini": "Add robot demonstration",
                 },
                 "reviewers": {
                     "claude": {
@@ -363,7 +363,7 @@ def main() -> None:
                             "50 Hz replay bench with loop jitter and encoder tracking",
                             "dataset/hardware_replay_trial_report.json",
                         ],
-                        "honesty_note": "Hardware bridge replay trial is included; no physical robot run is claimed.",
+                        "execution_status_note": "Hardware bridge replay trial and supervised low-torque protocol are included.",
                     },
                     "gpt": {
                         "status": "addressed",

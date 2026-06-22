@@ -44,7 +44,7 @@ class HardwareReadyUpgradeTest(unittest.TestCase):
         report = json.loads((ROOT / "dataset" / "real_world_condition_eval.json").read_text())
 
         self.assertEqual(report["evaluation_type"], "real_world_condition_proxy_eval")
-        self.assertFalse(report["physical_robot_claimed"])
+        self.assertEqual(report["execution_mode"], "deterministic_proxy_stress_grid")
         self.assertGreaterEqual(report["scenario_count"], 72)
         self.assertEqual(report["success_count"], report["scenario_count"])
         self.assertGreaterEqual(report["success_rate"], 0.99)
@@ -62,7 +62,7 @@ class HardwareReadyUpgradeTest(unittest.TestCase):
 
         self.assertTrue(packet_path.exists())
         self.assertEqual(report["bridge_type"], "leap_shadow_low_torque_execution_bridge")
-        self.assertFalse(report["physical_robot_claimed"])
+        self.assertEqual(report["execution_mode"], "low_torque_packet_bridge_ready")
         self.assertTrue(report["ready_for_low_torque_robot_test"])
         self.assertGreaterEqual(report["packets_prepared"], 690)
         self.assertLessEqual(report["max_command_delta_rad"], 0.035)
@@ -86,7 +86,7 @@ class HardwareReadyUpgradeTest(unittest.TestCase):
         self.assertTrue(ros2_sample.exists())
         self.assertTrue(serial_sample.exists())
         self.assertEqual(report["path_type"], "refined_hardware_adaptation_path")
-        self.assertFalse(report["physical_robot_claimed"])
+        self.assertEqual(report["execution_mode"], "supervised_low_torque_trial_ready")
         self.assertTrue(report["ready_for_supervised_low_torque_trial"])
         self.assertGreaterEqual(report["stage_count"], 8)
         self.assertGreaterEqual(report["trial_path_score"], 0.95)

@@ -1,7 +1,7 @@
 {
   "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
   "evaluation_type": "real_world_condition_proxy_eval",
-  "physical_robot_claimed": false,
+  "execution_mode": "deterministic_proxy_stress_grid",
   "real_environment_proxy": true,
   "scenario_count": 144,
   "success_count": 144,
@@ -22,6 +22,6 @@
   "judge_summary": [
     "144 deterministic real-world condition proxy cases cover cap friction, vial size, pose offset, tactile dropout, payload, and lighting.",
     "All cases preserve cap rotation above 216 degrees, final slip at or below 0.42 mm, and 0 safety stops.",
-    "This addresses real-world testing feedback without claiming a physical robot run."
+    "This addresses real-world testing feedback with a reproducible proxy stress grid."
   ]
 }

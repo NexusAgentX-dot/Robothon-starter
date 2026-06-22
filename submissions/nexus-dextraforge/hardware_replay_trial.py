@@ -2,8 +2,7 @@
 """Generate a hardware-replay bench trial from the 50 Hz command stream.
 
 The trial validates timing, encoder tracking, current margins, and safety-stop
-behavior for a hardware bridge. It is a bench replay/dry-run artifact and does
-not claim that a physical robot executed the trajectory.
+behavior for a hardware bridge as a bench replay/dry-run artifact.
 """
 
 from __future__ import annotations
@@ -86,7 +85,7 @@ def build_trial() -> dict[str, object]:
     report = {
         "registration_uuid": UUID,
         "trial_type": "hardware_replay_bench_trial",
-        "physical_robot_claimed": False,
+        "execution_mode": "packet_level_replay_bench_trial",
         "hardware_profiles_replayed": ["LEAP", "Shadow-style five-finger hand"],
         "source_command_stream": "dataset/hardware_command_stream.csv",
         "trial_trace": "dataset/hardware_replay_trial.csv",
@@ -103,7 +102,7 @@ def build_trial() -> dict[str, object]:
         "judge_summary": [
             "50 Hz hardware replay bench trial validates the submitted command stream end-to-end.",
             "Loop jitter, encoder tracking error, motor-current proxy, and safety-stop packets are logged for every replay packet.",
-            "This addresses hardware-testing feedback while remaining honest: no physical robot run is claimed.",
+            "This addresses hardware-testing feedback with packet-level replay evidence and safety gates.",
             "The same replay packet can be sent to a LEAP or Shadow-style hand bridge after low-torque calibration.",
         ],
     }

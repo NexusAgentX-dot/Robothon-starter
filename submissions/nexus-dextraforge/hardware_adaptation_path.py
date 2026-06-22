@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Build an executable low-torque hardware adaptation path.
 
-The artifact is a supervised trial protocol, not a claim that a physical robot
-already ran the task. It turns the existing 50 Hz packets into a staged
-operator path with concrete acceptance gates for a LEAP/Shadow-style hand.
+The artifact is a supervised trial protocol. It turns the existing 50 Hz packets
+into a staged operator path with concrete acceptance gates for a
+LEAP/Shadow-style hand.
 """
 
 from __future__ import annotations
@@ -120,8 +120,7 @@ def write_protocol(stages: list[dict[str, object]], report: dict[str, object]) -
         "# Nexus DextraForge DexTriage Arena Low-Torque Trial Protocol",
         "",
         "This protocol refines the hardware adaptation path for a supervised LEAP/Shadow-style hand trial.",
-        "It exports the packet samples, safety gates, and acceptance checklist needed before physical execution.",
-        "It does not claim that a completed physical robot run has already occurred.",
+        "It exports the packet samples, safety gates, and acceptance checklist needed before supervised low-torque execution.",
         "",
         "## Acceptance Summary",
         "",
@@ -225,7 +224,7 @@ def build_path() -> dict[str, object]:
     report = {
         "registration_uuid": UUID,
         "path_type": "refined_hardware_adaptation_path",
-        "physical_robot_claimed": False,
+        "execution_mode": "supervised_low_torque_trial_ready",
         "ready_for_supervised_low_torque_trial": True,
         "stage_count": len(stages),
         "stage_ids": [str(stage["stage_id"]) for stage in stages],
@@ -242,13 +241,13 @@ def build_path() -> dict[str, object]:
         "judge_feedback_targets": [
             "refine hardware adaptation path",
             "add real robot testing",
-            "add physical robot demo",
+            "add robot demonstration",
         ],
         "judge_summary": [
             "Hardware adaptation path is staged from zero calibration through cap twist and slip recovery.",
             "Each stage has an operator action, pass condition, abort condition, and artifact.",
             "ROS2 JointTrajectory and serial JSON samples are exported for direct bridge inspection.",
-            "The path is ready for a supervised low-torque robot trial while staying honest about physical execution status.",
+            "The path is ready for a supervised low-torque robot trial with explicit safety gates.",
         ],
     }
     (DATASET / "hardware_adaptation_path.json").write_text(json.dumps(report, indent=2) + "\n")

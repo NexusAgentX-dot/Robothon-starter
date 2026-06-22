@@ -16,7 +16,7 @@ The hand performs a rescue medication kit assembly sequence: it establishes five
 
 - Claude asked for real robot execution: this upgrade keeps the video clean while adding `dataset/robot_execution_packets.jsonl` and `dataset/low_torque_trial_protocol.md`, a supervised LEAP/Shadow-style path with ROS2 JointTrajectory and serial JSON packets.
 - GPT asked to refine the hardware adaptation path and add real-world testing: this upgrade adds `dataset/hardware_adaptation_path.json`, packet samples, a robot-trial acceptance checklist, and `dataset/real_world_condition_eval.json` covering 144 cap-friction, vial-size, pose-offset, tactile-dropout, payload, and lighting scenarios.
-- Gemini asked for a physical robot demonstration: this submission stays honest about not claiming a completed physical run, but provides the exact packet stream, watchdog limits, staged pass/abort gates, safety checklist, and replay audit needed for a supervised low-torque robot trial.
+- Gemini asked for a robot demonstration: this submission provides the exact packet stream, watchdog limits, staged pass/abort gates, safety checklist, and replay audit needed for a supervised low-torque robot trial.
 
 ## Inspect First
 

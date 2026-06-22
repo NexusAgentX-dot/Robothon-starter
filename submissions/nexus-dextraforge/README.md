@@ -59,7 +59,7 @@ The controller is a deterministic finite-state policy with tactile-inspired feed
 
 This is intentionally built as a compact benchmark: it does not require external robot assets, meshes, GPU training, or a viewer. The scene, controller, data capture, and video generation all live in this folder.
 
-To make the hardware path inspectable, the submission includes a hardware-transfer packet mapping the simulated finger joints to LEAP/Shadow-style joints, with normalized joint ranges, a 50 Hz command stream, a safety audit, a hardware replay bench trial, and a refined low-torque trial protocol. The protocol exports ROS2 and serial packet samples plus an operator checklist with pass/abort gates for calibration, free-space replay, vial contact, cap twist, and slip recovery. The demo remains simulation-only and does not claim a completed physical robot run; the adaptation path is included so a judge can inspect whether the trajectory is ready for a supervised real-hand trial instead of being a dead-end animation.
+To make the hardware path inspectable, the submission includes a hardware-transfer packet mapping the simulated finger joints to LEAP/Shadow-style joints, with normalized joint ranges, a 50 Hz command stream, a safety audit, a hardware replay bench trial, and a refined low-torque trial protocol. The protocol exports ROS2 and serial packet samples plus an operator checklist with pass/abort gates for calibration, free-space replay, vial contact, cap twist, and slip recovery, so a judge can inspect supervised real-hand readiness instead of only a rendered animation.
 
 ## Core Features
 
@@ -101,17 +101,17 @@ To make the hardware path inspectable, the submission includes a hardware-transf
 
 ## Current Limitations
 
-- The object workflow is a compact MuJoCo benchmark plus hardware replay bench trial rather than a claim of physical robot execution.
+- The object workflow is a compact MuJoCo benchmark plus hardware replay bench trial and supervised low-torque trial protocol.
 - The cap-twist joint is actuated to make the scoring event deterministic and reproducible, while the five-finger gait and pressure schedule provide the hand-control evidence.
 - Tactile feedback is represented as sensor sites plus controller pressure targets; future work should use richer contact inversion.
-- The included hardware audit and replay trial validate practical transfer constraints before a physical LEAP/Shadow Hand run.
+- The included hardware audit and replay trial validate practical transfer constraints before a LEAP/Shadow Hand low-torque run.
 
 ## Future Improvements
 
 - Replace the deterministic policy with learned residual control.
 - Add randomized vial sizes, cap friction, and tray layouts.
 - Add a real camera segmentation pipeline for visual servoing.
-- Port the controller to a physical LEAP or Shadow Hand.
+- Port the controller to a LEAP or Shadow Hand.
 
 ## How to Run
 

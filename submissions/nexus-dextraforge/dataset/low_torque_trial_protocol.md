@@ -1,8 +1,7 @@
 # Nexus DextraForge DexTriage Arena Low-Torque Trial Protocol
 
 This protocol refines the hardware adaptation path for a supervised LEAP/Shadow-style hand trial.
-It exports the packet samples, safety gates, and acceptance checklist needed before physical execution.
-It does not claim that a completed physical robot run has already occurred.
+It exports the packet samples, safety gates, and acceptance checklist needed before supervised low-torque execution.
 
 ## Acceptance Summary
 

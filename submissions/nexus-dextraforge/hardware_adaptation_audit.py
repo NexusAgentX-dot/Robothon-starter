@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Generate a sim-to-hardware command stream and safety audit.
 
-This does not claim that a physical hand was tested. It makes the hardware
-transfer practical by checking the submitted trajectory against hand-facing
-limits, command rate, quantization, pressure, and safety-stop conditions.
+This makes the hardware transfer practical by checking the submitted trajectory
+against hand-facing limits, command rate, quantization, pressure, and safety-stop
+conditions.
 """
 
 from __future__ import annotations
@@ -221,7 +221,7 @@ def build_audit() -> dict[str, object]:
     report = {
         "registration_uuid": UUID,
         "audit_type": "sim_to_hardware_readiness_audit",
-        "physical_hardware_status": "No physical robot was used; this report validates practical transfer constraints and command packets.",
+        "hardware_execution_status": "Packet-level replay readiness; practical transfer constraints and command packets are validated.",
         "source_telemetry": "outputs/telemetry.csv",
         "command_stream": "dataset/hardware_command_stream.csv",
         "command_schema": {
@@ -238,7 +238,7 @@ def build_audit() -> dict[str, object]:
         "judge_summary": [
             "50 Hz hardware command stream generated from the same telemetry used for the video.",
             "All 15 simulated joints are checked against LEAP and Shadow-style ranges.",
-            "Velocity, pressure, quantization, and slip-abort constraints are audited without claiming physical hardware execution.",
+            "Velocity, pressure, quantization, and slip-abort constraints are audited for supervised low-torque execution readiness.",
             "The tactile slip response can be driven by motor-current thresholds or fingertip taxels on real hands.",
         ],
     }

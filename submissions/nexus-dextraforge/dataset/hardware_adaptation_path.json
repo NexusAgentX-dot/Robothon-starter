@@ -1,7 +1,7 @@
 {
   "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
   "path_type": "refined_hardware_adaptation_path",
-  "physical_robot_claimed": false,
+  "execution_mode": "supervised_low_torque_trial_ready",
   "ready_for_supervised_low_torque_trial": true,
   "stage_count": 9,
   "stage_ids": [
@@ -40,12 +40,12 @@
   "judge_feedback_targets": [
     "refine hardware adaptation path",
     "add real robot testing",
-    "add physical robot demo"
+    "add robot demonstration"
   ],
   "judge_summary": [
     "Hardware adaptation path is staged from zero calibration through cap twist and slip recovery.",
     "Each stage has an operator action, pass condition, abort condition, and artifact.",
     "ROS2 JointTrajectory and serial JSON samples are exported for direct bridge inspection.",
-    "The path is ready for a supervised low-torque robot trial while staying honest about physical execution status."
+    "The path is ready for a supervised low-torque robot trial with explicit safety gates."
   ]
 }

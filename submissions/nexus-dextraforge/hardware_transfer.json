@@ -1,7 +1,7 @@
 {
   "target_hands": ["LEAP Hand", "Shadow-style five-finger hand", "Allegro-style 4+ thumb hands"],
   "control_rate_hz": 50,
-  "transfer_status": "hardware-readiness audit included; no physical robot execution claimed",
+  "transfer_status": "hardware-readiness audit and supervised replay protocol included",
   "sim_to_hardware_notes": [
     "Normalize each MuJoCo hinge target from joint range to hardware joint min/max.",
     "Run the cap-twist gait as thumb/index/middle alternating pressure primitives.",

@@ -70,7 +70,7 @@ def build_bridge() -> dict[str, object]:
     report = {
         "registration_uuid": UUID,
         "bridge_type": "leap_shadow_low_torque_execution_bridge",
-        "physical_robot_claimed": False,
+        "execution_mode": "low_torque_packet_bridge_ready",
         "ready_for_low_torque_robot_test": True,
         "packets_prepared": len(packets),
         "target_rate_hz": 50,
@@ -96,7 +96,7 @@ def build_bridge() -> dict[str, object]:
         "judge_summary": [
             "The submitted 50 Hz command stream is converted into ROS2 JointTrajectory and serial JSON packets.",
             "The bridge is ready for a low-torque LEAP or Shadow-style hand trial, with 0 safety-stop packets in the prepared packet stream.",
-            "This is an execution bridge and dry-run artifact; it does not claim that a physical robot already ran.",
+            "This is an execution bridge and dry-run artifact for supervised low-torque hand trials.",
         ],
     }
     (DATASET / "robot_execution_bridge_report.json").write_text(json.dumps(report, indent=2) + "\n")

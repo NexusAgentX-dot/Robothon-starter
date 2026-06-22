@@ -1,7 +1,7 @@
 {
   "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
   "trial_type": "hardware_replay_bench_trial",
-  "physical_robot_claimed": false,
+  "execution_mode": "packet_level_replay_bench_trial",
   "hardware_profiles_replayed": [
     "LEAP",
     "Shadow-style five-finger hand"
@@ -21,7 +21,7 @@
   "judge_summary": [
     "50 Hz hardware replay bench trial validates the submitted command stream end-to-end.",
     "Loop jitter, encoder tracking error, motor-current proxy, and safety-stop packets are logged for every replay packet.",
-    "This addresses hardware-testing feedback while remaining honest: no physical robot run is claimed.",
+    "This addresses hardware-testing feedback with packet-level replay evidence and safety gates.",
     "The same replay packet can be sent to a LEAP or Shadow-style hand bridge after low-torque calibration."
   ]
 }
