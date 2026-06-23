@@ -10,6 +10,6 @@
   "tactile_channels": 5,
   "closed_loop_feedback": true,
   "success": true,
-  "video": "/Users/kb/Desktop/FF-bot/Robothon-starter/submissions/nexus-dextraforge/outputs/demo.mp4",
-  "telemetry": "/Users/kb/Desktop/FF-bot/Robothon-starter/submissions/nexus-dextraforge/outputs/telemetry.csv"
+  "video": "outputs/demo.mp4",
+  "telemetry": "outputs/telemetry.csv"
 }

@@ -457,8 +457,8 @@ def run(no_video: bool = False, width: int = 960, height: int = 544) -> dict[str
         "tactile_channels": 5,
         "closed_loop_feedback": True,
         "success": bool(max_cap >= 214.0 and final_slip <= 0.40),
-        "video": str(OUT / "demo.mp4") if video_written else "disabled",
-        "telemetry": str(telemetry_path),
+        "video": "outputs/demo.mp4" if video_written else "disabled",
+        "telemetry": "outputs/telemetry.csv",
     }
     with (OUT / "summary.json").open("w") as f:
         json.dump(summary, f, indent=2)
