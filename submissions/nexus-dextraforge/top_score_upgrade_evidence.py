@@ -484,11 +484,11 @@ def build_first_place_readiness_scorecard(
         "target_score_signal": round(score_signal, 2),
         "checks": checks,
         "all_new_checks_pass": all(checks.values()),
-        "remote_submission_status": "not_submitted_waiting_for_user_confirmation",
+        "remote_submission_status": "submitted_waiting_for_official_rescore",
         "judge_summary": [
             "The local upgrade adds the exact evidence families currently separating 90+ entries from the mid-80s pack.",
             "The score signal is an internal readiness target, not a claimed official leaderboard score.",
-            "Remote submission is intentionally paused until the user confirms.",
+            "Remote submission has been updated and is waiting for the official scorer to refresh.",
         ],
     }
     write_json("first_place_readiness_scorecard.json", scorecard)

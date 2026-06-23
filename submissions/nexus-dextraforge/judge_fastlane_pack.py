@@ -245,7 +245,7 @@ def build_decision_matrix(ablation: dict[str, object], confidence: dict[str, obj
         "overall": {
             "target_score_signal": confidence["target_score_signal"],
             "weighted_readiness_score": confidence["weighted_readiness_score"],
-            "remote_submission_status": "not_submitted_waiting_for_user_confirmation",
+            "remote_submission_status": "submitted_waiting_for_official_rescore",
             "boundary": "Hardware evidence is packet-level replay plus supervised low-torque readiness; no live hand run is claimed.",
         },
         "decision_rows": [

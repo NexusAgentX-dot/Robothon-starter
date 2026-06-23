@@ -5,7 +5,7 @@
   "overall": {
     "target_score_signal": 91.6,
     "weighted_readiness_score": 0.9599,
-    "remote_submission_status": "not_submitted_waiting_for_user_confirmation",
+    "remote_submission_status": "submitted_waiting_for_official_rescore",
     "boundary": "Hardware evidence is packet-level replay plus supervised low-torque readiness; no live hand run is claimed."
   },
   "decision_rows": [

@@ -163,7 +163,7 @@ def main() -> None:
         and decision_matrix.get("critical_numbers", {}).get("qpos_teleport_count", 99) == 0,
         "first_place_readiness_scorecard": readiness.get("all_new_checks_pass") is True
         and readiness.get("target_score_signal", 0) >= 91.5
-        and readiness.get("remote_submission_status") == "not_submitted_waiting_for_user_confirmation",
+        and readiness.get("remote_submission_status") == "submitted_waiting_for_official_rescore",
     }
     failed = [k for k, ok in checks.items() if not ok]
     if failed:
