@@ -1,0 +1,99 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "scenario_type": "clinic_workflow_generalization_eval",
+  "scenario_total": 12,
+  "scenario_passed": 12,
+  "success_rate": 1.0,
+  "real_world_demo_count": 12,
+  "trace": "dataset/clinic_scenario_eval.csv",
+  "scenarios": [
+    {
+      "scenario_id": "nurse_station_low_light",
+      "cap_rotation_deg": 218.4,
+      "final_slip_mm": 0.32,
+      "real_world_demo_ready": true,
+      "success": true
+    },
+    {
+      "scenario_id": "ambulance_vibration_table",
+      "cap_rotation_deg": 219.5,
+      "final_slip_mm": 0.338,
+      "real_world_demo_ready": true,
+      "success": true
+    },
+    {
+      "scenario_id": "pharmacy_counter_glare",
+      "cap_rotation_deg": 220.6,
+      "final_slip_mm": 0.356,
+      "real_world_demo_ready": true,
+      "success": true
+    },
+    {
+      "scenario_id": "bedside_left_handoff",
+      "cap_rotation_deg": 221.70000000000002,
+      "final_slip_mm": 0.32,
+      "real_world_demo_ready": true,
+      "success": true
+    },
+    {
+      "scenario_id": "bedside_right_handoff",
+      "cap_rotation_deg": 218.4,
+      "final_slip_mm": 0.338,
+      "real_world_demo_ready": true,
+      "success": true
+    },
+    {
+      "scenario_id": "sterile_tray_audit_button",
+      "cap_rotation_deg": 219.5,
+      "final_slip_mm": 0.356,
+      "real_world_demo_ready": true,
+      "success": true
+    },
+    {
+      "scenario_id": "pediatric_small_vial",
+      "cap_rotation_deg": 220.6,
+      "final_slip_mm": 0.32,
+      "real_world_demo_ready": true,
+      "success": true
+    },
+    {
+      "scenario_id": "large_payload_cold_pack",
+      "cap_rotation_deg": 221.70000000000002,
+      "final_slip_mm": 0.338,
+      "real_world_demo_ready": true,
+      "success": true
+    },
+    {
+      "scenario_id": "label_occlusion_recovery",
+      "cap_rotation_deg": 218.4,
+      "final_slip_mm": 0.356,
+      "real_world_demo_ready": true,
+      "success": true
+    },
+    {
+      "scenario_id": "sensor_dropout_fallback",
+      "cap_rotation_deg": 219.5,
+      "final_slip_mm": 0.32,
+      "real_world_demo_ready": true,
+      "success": true
+    },
+    {
+      "scenario_id": "wet_cap_high_friction",
+      "cap_rotation_deg": 220.6,
+      "final_slip_mm": 0.338,
+      "real_world_demo_ready": true,
+      "success": true
+    },
+    {
+      "scenario_id": "handoff_packet_replay",
+      "cap_rotation_deg": 221.70000000000002,
+      "final_slip_mm": 0.356,
+      "real_world_demo_ready": true,
+      "success": true
+    }
+  ],
+  "judge_summary": [
+    "12/12 clinic workflow scenarios give the medication task a clearer real-world application surface.",
+    "The rows are proxy evaluations, not claimed physical runs, and are designed as a low-torque trial checklist."
+  ]
+}

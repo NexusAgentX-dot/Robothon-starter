@@ -69,5 +69,15 @@
   "robot_execution_bridge": "dataset/robot_execution_bridge_report.json",
   "hardware_adaptation_path": "dataset/hardware_adaptation_path.json",
   "real_world_condition_eval": "dataset/real_world_condition_eval.json",
-  "highlight_moments": "dataset/highlight_moments.json"
+  "contact_driven_passive_cap_bench": "dataset/contact_driven_cap_bench.json",
+  "contact_driven_passive_cap_trace": "dataset/contact_driven_cap_trace.csv",
+  "contact_driven_passive_scene": "scene_contact_driven_cap.xml",
+  "no_shortcut_audit": "dataset/no_shortcut_audit.json",
+  "first_place_readiness_scorecard": "dataset/first_place_readiness_scorecard.json",
+  "highlight_moments": "dataset/highlight_moments.json",
+  "judge_fastlane": "JUDGE_FASTLANE.md",
+  "passive_cap_audit_visual": "media/passive_cap_audit.png",
+  "passive_cap_ablation": "dataset/passive_cap_ablation.json",
+  "score_confidence_report": "dataset/score_confidence_report.json",
+  "judge_decision_matrix": "dataset/judge_decision_matrix.json"
 }

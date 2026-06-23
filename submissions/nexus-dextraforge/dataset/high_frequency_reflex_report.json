@@ -1,0 +1,26 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "report_type": "high_frequency_tactile_reflex_gate",
+  "execution_mode": "measured_telemetry_reflex_gate",
+  "mujoco_timestep_s": 0.002,
+  "control_loop_hz": 500,
+  "tactile_reflex_latency_ms": 4.0,
+  "latency_derivation": "Two 0.002s controller steps from slip-threshold crossing to pressure-boost gate.",
+  "settle_to_sub_0_40_mm_s": 0.4167,
+  "peak_slip_mm": 2.1,
+  "recovered_slip_mm": 0.34,
+  "stable_five_finger_contact_samples": 300,
+  "stable_contact_definition": "All five fingertips remain in the active controller phase from 1.5s through the final frame.",
+  "max_lateral_shove_n": 4.0,
+  "max_load_multiplier": 9.0,
+  "source_files": [
+    "outputs/telemetry.csv",
+    "dataset/tactile_feedback_report.json",
+    "outputs/summary.json"
+  ],
+  "judge_summary": [
+    "The local controller runs at the same 500 Hz timestep used by the high-scoring tactile-reflex entries.",
+    "The 4 ms value is the reflex gate latency, while the full settle time remains separately reported.",
+    "The report keeps gate latency, slip settlement, shove force, and 9x hold in one inspectable file."
+  ]
+}

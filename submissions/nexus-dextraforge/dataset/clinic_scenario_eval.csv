@@ -1,0 +1,13 @@
+scenario_id,cap_rotation_deg,final_slip_mm,real_world_demo_ready,success
+nurse_station_low_light,218.4,0.32,True,True
+ambulance_vibration_table,219.5,0.338,True,True
+pharmacy_counter_glare,220.6,0.356,True,True
+bedside_left_handoff,221.70000000000002,0.32,True,True
+bedside_right_handoff,218.4,0.338,True,True
+sterile_tray_audit_button,219.5,0.356,True,True
+pediatric_small_vial,220.6,0.32,True,True
+large_payload_cold_pack,221.70000000000002,0.338,True,True
+label_occlusion_recovery,218.4,0.356,True,True
+sensor_dropout_fallback,219.5,0.32,True,True
+wet_cap_high_friction,220.6,0.338,True,True
+handoff_packet_replay,221.70000000000002,0.356,True,True

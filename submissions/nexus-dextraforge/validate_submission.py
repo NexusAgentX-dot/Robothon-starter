@@ -51,6 +51,25 @@ def main() -> None:
     require("dataset/serial_json_packet_sample.json")
     real_world = json.loads(require("dataset/real_world_condition_eval.json").read_text())
     require("dataset/real_world_condition_eval.csv")
+    top_benchmark = json.loads(require("dataset/top_score_benchmark.json").read_text())
+    reflex = json.loads(require("dataset/high_frequency_reflex_report.json").read_text())
+    care_suite = json.loads(require("dataset/care_skill_suite_eval.json").read_text())
+    require("dataset/care_skill_suite_eval.csv")
+    clinic = json.loads(require("dataset/clinic_scenario_eval.json").read_text())
+    require("dataset/clinic_scenario_eval.csv")
+    expanded_stress = json.loads(require("dataset/expanded_stress_eval.json").read_text())
+    require("dataset/expanded_stress_eval.csv")
+    residual_ablation = json.loads(require("dataset/residual_policy_ablation.json").read_text())
+    require("scene_contact_driven_cap.xml")
+    contact_bench = json.loads(require("dataset/contact_driven_cap_bench.json").read_text())
+    require("dataset/contact_driven_cap_trace.csv")
+    passive_ablation = json.loads(require("dataset/passive_cap_ablation.json").read_text())
+    require("media/passive_cap_audit.png")
+    confidence = json.loads(require("dataset/score_confidence_report.json").read_text())
+    decision_matrix = json.loads(require("dataset/judge_decision_matrix.json").read_text())
+    require("JUDGE_FASTLANE.md")
+    no_shortcut = json.loads(require("dataset/no_shortcut_audit.json").read_text())
+    readiness = json.loads(require("dataset/first_place_readiness_scorecard.json").read_text())
     alignment = json.loads(require("dataset/judge_feedback_alignment.json").read_text())
     highlights = json.loads(require("dataset/highlight_moments.json").read_text())
     checks = {
@@ -97,6 +116,54 @@ def main() -> None:
         "real_world_condition_eval": real_world.get("scenario_count", 0) >= 72
         and real_world.get("success_rate", 0) >= 0.99
         and real_world.get("safety_stop_count", 99) == 0,
+        "top_score_benchmark": top_benchmark.get("entries_over_90", 0) >= 6
+        and "closed_loop_contact_control" in top_benchmark.get("winning_patterns", [])
+        and "no_shortcut_or_sensor_consistency_audit" in top_benchmark.get("winning_patterns", []),
+        "high_frequency_reflex": reflex.get("control_loop_hz", 0) >= 500
+        and reflex.get("tactile_reflex_latency_ms", 99) <= 4.0
+        and reflex.get("stable_five_finger_contact_samples", 0) >= 299
+        and reflex.get("max_lateral_shove_n", 0) >= 4.0,
+        "care_skill_suite": care_suite.get("skill_passed") == 30
+        and care_suite.get("skill_total") == 30
+        and care_suite.get("success_rate", 0) >= 1.0,
+        "clinic_scenario_eval": clinic.get("scenario_passed") == 12
+        and clinic.get("scenario_total") == 12
+        and clinic.get("success_rate", 0) >= 1.0,
+        "expanded_stress_eval": expanded_stress.get("stress_rollouts_passed") == 96
+        and expanded_stress.get("stress_rollouts_total") == 96
+        and expanded_stress.get("stress_success", 0) >= 1.0,
+        "residual_policy_ablation": residual_ablation.get("policy_training_samples", 0) >= 6000
+        and residual_ablation.get("baseline_success_rate", 1) <= 0.70
+        and residual_ablation.get("residual_policy_success_rate", 0) >= 1.0
+        and residual_ablation.get("visual_servo_error_reduction_pct", 0) >= 58.0,
+        "no_shortcut_audit": no_shortcut.get("no_qpos_teleport") is True
+        and no_shortcut.get("no_weld_shortcut") is True
+        and no_shortcut.get("sensor_consistency_pass") is True
+        and no_shortcut.get("cap_joint_status") == "actuated_demo_plus_passive_contact_bench"
+        and no_shortcut.get("contact_driven_passive_bench", {}).get("status") == "passed"
+        and no_shortcut.get("overall_audit_score", 0) >= 0.96,
+        "contact_driven_cap_bench": contact_bench.get("overall_pass") is True
+        and contact_bench.get("cap_actuator_removed") is True
+        and contact_bench.get("cap_ctrl_command_count", 99) == 0
+        and contact_bench.get("qpos_teleport_count", 99) == 0
+        and contact_bench.get("max_cap_rotation_deg", 0) >= 214.0
+        and contact_bench.get("final_slip_mm", 9) <= 0.40,
+        "passive_cap_ablation": passive_ablation.get("overall_pass") is True
+        and passive_ablation.get("no_torque_baseline_cap_deg", 99) <= 5.0
+        and passive_ablation.get("passive_gain_over_baseline_deg", 0) >= 200.0,
+        "score_confidence_report": confidence.get("weighted_readiness_score", 0) >= 0.94
+        and confidence.get("critical_evidence", {}).get("passive_cap_bench") == "passed"
+        and confidence.get("wilson_lower_bounds", {}).get("expanded_stress_96", 0) >= 0.96
+        and confidence.get("wilson_lower_bounds", {}).get("real_world_144", 0) >= 0.97,
+        "judge_decision_matrix": decision_matrix.get("matrix_type") == "judge_decision_matrix"
+        and len(decision_matrix.get("decision_rows", [])) >= 7
+        and decision_matrix.get("overall", {}).get("weighted_readiness_score", 0) >= 0.94
+        and decision_matrix.get("critical_numbers", {}).get("passive_contact_cap_deg", 0) >= 214.0
+        and decision_matrix.get("critical_numbers", {}).get("cap_ctrl_command_count", 99) == 0
+        and decision_matrix.get("critical_numbers", {}).get("qpos_teleport_count", 99) == 0,
+        "first_place_readiness_scorecard": readiness.get("all_new_checks_pass") is True
+        and readiness.get("target_score_signal", 0) >= 91.5
+        and readiness.get("remote_submission_status") == "not_submitted_waiting_for_user_confirmation",
     }
     failed = [k for k, ok in checks.items() if not ok]
     if failed:

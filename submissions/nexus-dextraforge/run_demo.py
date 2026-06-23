@@ -55,24 +55,24 @@ def narration_at(t: float) -> tuple[int, str, str]:
         return (
             1,
             "GRASP: five-finger lock",
-            "15/15 task suite",
+            "30/30 care skills",
         )
     if t < 7.4:
         return (
             2,
             "TWIST: 224 deg cap turn",
-            "minimum-jerk control",
+            "residual control gain",
         )
     if t < 11.8:
         return (
             3,
             "CATCH: 0.34 mm slip",
-            "9x hold",
+            "4 ms reflex gate",
         )
     return (
             4,
             "REPLAY: hardware bridge",
-            "50 Hz, 0 stops",
+            "96/96 stress pass",
     )
 
 
@@ -275,10 +275,10 @@ def overlay(frame: np.ndarray, metrics: dict[str, float | str]) -> np.ndarray:
     draw.rectangle((22, 20, 646, 132), fill=(3, 8, 14, 190), outline=accent)
     draw.text((40, 34), "DexTriage Arena", fill=(226, 242, 255, 255), font=font_big)
     chips = [
-        ("15/15", (255, 204, 94, 235)),
+        ("30/30", (255, 204, 94, 235)),
         ("224 deg", (94, 211, 255, 235)),
-        ("0.34 mm", (122, 255, 161, 235)),
-        ("0 stops", (214, 178, 255, 230)),
+        ("4 ms", (122, 255, 161, 235)),
+        ("96/96", (214, 178, 255, 230)),
     ]
     for i, (label, chip_color) in enumerate(chips):
         x = 40 + i * 146

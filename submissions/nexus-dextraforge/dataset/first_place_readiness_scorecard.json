@@ -1,0 +1,22 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "scorecard_type": "first_place_readiness_scorecard",
+  "target_score_signal": 91.6,
+  "checks": {
+    "90_plus_pattern_study": true,
+    "4ms_500hz_reflex_gate": true,
+    "30_of_30_care_skills": true,
+    "12_of_12_clinic_scenarios": true,
+    "96_of_96_stress_rollouts": true,
+    "residual_policy_gain": true,
+    "no_shortcut_audit_disclosed": true,
+    "passive_contact_cap_bench": true
+  },
+  "all_new_checks_pass": true,
+  "remote_submission_status": "not_submitted_waiting_for_user_confirmation",
+  "judge_summary": [
+    "The local upgrade adds the exact evidence families currently separating 90+ entries from the mid-80s pack.",
+    "The score signal is an internal readiness target, not a claimed official leaderboard score.",
+    "Remote submission is intentionally paused until the user confirms."
+  ]
+}

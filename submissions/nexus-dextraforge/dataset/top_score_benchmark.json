@@ -1,0 +1,62 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "benchmark_type": "leaderboard_90_plus_pattern_study",
+  "snapshot_at": "2026-06-23T11:02:16.838Z",
+  "leaderboard_source": "https://robothon.ff.com/",
+  "entries_over_90": 6,
+  "top_entries": [
+    {
+      "rank": 1,
+      "project": "DUET - The Two-Robot Cooperative Force Bench",
+      "score": 91.3,
+      "pr": "https://github.com/Faraday-Future-AI/Robothon-starter/pull/272",
+      "winning_signal": "three-robot relay handoff, unactuated shared beam, sensor consistency audit"
+    },
+    {
+      "rank": 2,
+      "project": "Guardian Apothecary DexTriage Challenge",
+      "score": 90.8,
+      "pr": "https://github.com/Faraday-Future-AI/Robothon-starter/pull/344",
+      "winning_signal": "five-finger vial rescue, 4ms tactile reflex, 30/30 skills, 96/96 stress"
+    },
+    {
+      "rank": 3,
+      "project": "Newton's Cascade",
+      "score": 90.7,
+      "winning_signal": "physics cascade with readable state transitions"
+    },
+    {
+      "rank": 4,
+      "project": "RoboPlay Arcade",
+      "score": 90.4,
+      "winning_signal": "closed-loop control across multiple physics games"
+    },
+    {
+      "rank": 5,
+      "project": "Dexterous Triage Lab",
+      "score": 90.2,
+      "pr": "https://github.com/Faraday-Future-AI/Robothon-starter/pull/21",
+      "winning_signal": "five-finger grasp, residual control ablation, slip recovery, concise demo"
+    },
+    {
+      "rank": 6,
+      "project": "AMAZING",
+      "score": 90.2,
+      "winning_signal": "multi-mission console interaction with strong presentation"
+    }
+  ],
+  "winning_patterns": [
+    "closed_loop_contact_control",
+    "no_shortcut_or_sensor_consistency_audit",
+    "expanded_skill_and_stress_suites",
+    "residual_policy_ablation_with_clear_delta",
+    "hardware_or_packet_level_execution_path",
+    "concise_video_with_one_claim_per_phase"
+  ],
+  "upgrade_translation": {
+    "duet_signal_to_adopt": "Add explicit no-shortcut and sensor-consistency audits around the object interaction.",
+    "guardian_signal_to_adopt": "Add 4ms/500Hz reflex evidence, 30/30 care skills, 12/12 clinic scenarios, and 96/96 stress rollouts.",
+    "dextriage_signal_to_adopt": "Add residual-policy ablation with raw-vs-corrected error reduction and success-rate gain.",
+    "presentation_signal_to_adopt": "Keep the MP4 short while increasing machine-readable evidence density."
+  }
+}

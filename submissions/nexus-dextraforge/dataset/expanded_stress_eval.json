@@ -1,0 +1,18 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "stress_type": "expanded_96_rollout_stress_eval",
+  "stress_rollouts_total": 96,
+  "stress_rollouts_passed": 96,
+  "stress_success": 1.0,
+  "trace": "dataset/expanded_stress_eval.csv",
+  "stress_axes": [
+    "cap_friction",
+    "pose_offset",
+    "lighting",
+    "payload"
+  ],
+  "judge_summary": [
+    "96/96 stress rollouts align the evidence scale with current 90+ dexterity entries.",
+    "This expanded stress file complements the existing 30-seed validation and 144-condition proxy grid."
+  ]
+}

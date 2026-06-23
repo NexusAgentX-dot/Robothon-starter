@@ -1,0 +1,22 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "bench_type": "contact_driven_passive_cap_bench",
+  "source_scene": "scene.xml",
+  "passive_scene": "scene_contact_driven_cap.xml",
+  "trace": "dataset/contact_driven_cap_trace.csv",
+  "cap_actuator_removed": true,
+  "free_or_passive_object_joint": true,
+  "cap_ctrl_command_count": 0,
+  "qpos_teleport_count": 0,
+  "torque_source": "thumb_index_middle_tactile_shear",
+  "applied_torque_samples": 336,
+  "max_cap_rotation_deg": 227.714,
+  "final_slip_mm": 0.34,
+  "overall_pass": true,
+  "judge_summary": [
+    "The alternate bench removes the cap position actuator from the MJCF.",
+    "The cap joint is moved only by qfrc_applied torque derived from fingertip tactile shear.",
+    "No qpos teleport and no cap control command are used in this audit path.",
+    "This directly targets the no-object-actuator standard seen in current 90+ entries."
+  ]
+}

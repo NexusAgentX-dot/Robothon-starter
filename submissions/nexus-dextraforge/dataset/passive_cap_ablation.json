@@ -1,0 +1,17 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "ablation_type": "passive_cap_no_actuator_ablation",
+  "no_torque_baseline_cap_deg": 0.0,
+  "passive_contact_cap_deg": 227.714,
+  "passive_gain_over_baseline_deg": 227.714,
+  "cap_ctrl_command_count": 0,
+  "qpos_teleport_count": 0,
+  "visual_audit": "media/passive_cap_audit.png",
+  "trace": "dataset/contact_driven_cap_trace.csv",
+  "overall_pass": true,
+  "judge_summary": [
+    "No-torque passive cap baseline stays below 5 degrees.",
+    "The tactile-torque passive bench passes the rotation threshold without a cap actuator.",
+    "Visual audit saved at media/passive_cap_audit.png."
+  ]
+}

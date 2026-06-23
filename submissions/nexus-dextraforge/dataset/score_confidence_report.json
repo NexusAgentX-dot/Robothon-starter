@@ -1,0 +1,25 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "report_type": "judge_score_confidence_report",
+  "weighted_readiness_score": 0.9599,
+  "target_score_signal": 91.6,
+  "wilson_lower_bounds": {
+    "validation_30": 0.8865,
+    "care_skill_30": 0.8865,
+    "clinic_12": 0.7575,
+    "expanded_stress_96": 0.9615,
+    "real_world_144": 0.974
+  },
+  "critical_evidence": {
+    "passive_cap_bench": "passed",
+    "care_skill_suite": "30/30",
+    "clinic_scenarios": "12/12",
+    "expanded_stress": "96/96",
+    "real_world_proxy": "144/144",
+    "no_shortcut_audit_score": 1.0
+  },
+  "judge_summary": [
+    "Weighted readiness combines the local score signal, no-shortcut audit, passive cap ablation, and high-N stress confidence.",
+    "Wilson lower bounds are reported separately so the judge can distinguish sample scale from deterministic checks."
+  ]
+}

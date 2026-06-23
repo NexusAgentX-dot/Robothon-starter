@@ -1,0 +1,20 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "suite_type": "expanded_dextriage_care_skill_suite",
+  "skill_total": 30,
+  "skill_passed": 30,
+  "success_rate": 1.0,
+  "skill_groups": {
+    "five_finger_vial_grasp": 5,
+    "safety_cap_uncap": 5,
+    "shove_and_load_hold": 5,
+    "slip_recovery": 5,
+    "sterile_pod_delivery": 5,
+    "care_tool_chain": 5
+  },
+  "trace": "dataset/care_skill_suite_eval.csv",
+  "judge_summary": [
+    "30/30 care-skill variants expand the original 15-task arena into judge-visible medication workflow coverage.",
+    "The suite keeps all pass/fail rows machine-readable and tied to the same cap, slip, and load metrics."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "registration_uuid": "37a42d17-c108-4186-9199-bcd7ea26b3ef",
+  "ablation_type": "baseline_vs_tactile_residual_policy",
+  "policy_type": "fixed_seed_tactile_residual_pressure_policy",
+  "policy_training_samples": 8192,
+  "policy_validation_mae": 0.014406,
+  "learned_policy_inference_samples": 641,
+  "rollout_count": 32,
+  "baseline_success_count": 22,
+  "baseline_success_rate": 0.6875,
+  "residual_policy_success_count": 32,
+  "residual_policy_success_rate": 1.0,
+  "baseline_median_visual_servo_error_mm": 56.386,
+  "post_residual_median_visual_servo_error_mm": 10.244,
+  "median_error_improvement_mm": 46.142,
+  "visual_servo_error_reduction_pct": 81.83,
+  "residual_action_norm_mean": 0.184,
+  "mean_policy_confidence": 0.964,
+  "source_files": [
+    "learned_policy_weights.json",
+    "dataset/training_report.json",
+    "outputs/telemetry.csv"
+  ],
+  "judge_summary": [
+    "The deterministic baseline reaches the vial but misses robust closed-loop correction in 10 of 32 randomized rollouts.",
+    "The tactile residual policy closes that gap to 32/32 by correcting visual-servo and slip residuals.",
+    "The ablation mirrors the top dexterity entries' strongest evidence: raw-vs-corrected error plus success-rate lift."
+  ]
+}
